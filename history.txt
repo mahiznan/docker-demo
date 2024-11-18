@@ -1,0 +1,3828 @@
+    1  .build/arm64-apple-macosx/debug/SPackageExec
+    2  clear
+    3  .build/arm64-apple-macosx/debug/SPackageExec
+    4  swift run SPackageExec
+    5  swift run SPackageExec Rajesh
+    6  c
+    7  clear
+    8  l
+    9  cd workspace/
+   10  l
+   11  rm -rf Gateway
+   12  l
+   13  clear
+   14  git clone https://github.com/spring-guides/gs-gateway.git
+   15  cd gs-gateway
+   16  l
+   17  idea .
+   18  top
+   19  clear
+   20  l
+   21  zsh
+   22  zsh theme
+   23  zsh help
+   24  zsh alias
+   25  alias
+   26  alias|grep theme
+   27  theme
+   28  zthem
+   29  ztheme
+   30  l
+   31  pwd
+   32  l
+   33  l -la
+   34  la
+   35  vi ./.zshrc
+   36  clear
+   37  l
+   38  cd workspace
+   39  l
+   40  cd gs-
+   41  cd gs-gateway
+   42  l
+   43  cd initial
+   44  k
+   45  l
+   46  clear
+   47  l
+   48  curl http://localhost:8080/get
+   49  sudo launchctl list
+   50  sudo launchctl list|grep jenkins
+   51  sudo launchctl list|grep jenkin
+   52  sudo jenkins status
+   53  sudo service jenkins status
+   54  brew services stop jenkins
+   55  curl http://localhost:8080/get
+   56  curl https://localhost:8080/get
+   57  curl http://localhost:8080/get
+   58  clear
+   59  wget http://localhost:8080/get
+   60  curl http://localhost:8080/get
+   61  clear
+   62  curl http://localhost:8080/get
+   63  clear
+   64  curl http://localhost:8080/get
+   65  curl http://localhost:8081/get
+   66  clear
+   67  curl http://localhost:8081/get
+   68  curl http://httpbin.org:80
+   69  curl http://localhost:8081/get
+   70  clear
+   71  curl http://localhost:8081/delay/3
+   72  curl - --header 'Host:www.circuitbreaker.com'
+   73  curl - --header 'Host:www.circuitbreaker.com' http://localhost:8080/delay/3
+   74  curl --header 'Host:www.circuitbreaker.com' http://localhost:8080/delay/3
+   75  curl --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   76  curl --dump-header --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   77  clear
+   78  curl --dump-header --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   79  curl --dump-header - --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   80  clear
+   81  l
+   82  curl --dump-header - --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   83  clear
+   84  curl --dump-header - --header 'Host:www.circuitbreaker.com' http://localhost:8081/delay/3
+   85  c;ear
+   86  clear
+   87  $ curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8080/delay/3
+   88  curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8080/delay/3
+   89  curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   90  clear
+   91  $ curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   92  curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   93  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   94  curl --header 'host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   95  clear
+   96  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/delay/3
+   97  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/get
+   98  curl --dump-header - --header http://localhost:8081/get
+   99  curl http://localhost:8081/get
+  100  clear
+  101  curl http://localhost:8081/get
+  102  curl http://localhost:8081/delay/3
+  103  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/users
+  104  clear
+  105  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/users
+  106  clear
+  107  curl --dump-header - --header 'host: www.circuitbreaker.com' http://localhost:8081/users
+  108  cd Downloads
+  109  cd ManagingStateAndLifeCycle/StartingProject
+  110  l
+  111  code .
+  112  swift hello.swift
+  113  clear
+  114  ./hello
+  115  swiftc hello.swift
+  116  ./hello
+  117  more hello
+  118  cls
+  119  clear
+  120  swiftc hello.swift
+  121  clear
+  122  swiftc hello.swift
+  123  rm hello
+  124  swift hello.swift
+  125  xcrun simctl get_app_container booted com.example.samplecode.Scrumdinger data
+  126  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger data
+  127  more /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Data/Application/26AB128A-53AE-4C12-95F2-72EA59BBC770\n
+  128  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Data/Application/26AB128A-53AE-4C12-95F2-72EA59BBC770\n
+  129  l
+  130  cd Documents
+  131  l
+  132  more scrums.data
+  133  clear
+  134  cd ..
+  135  l
+  136  ckear
+  137  clear
+  138  l
+  139  pwd
+  140  l
+  141  cd Documents
+  142  l
+  143  more scrums.data
+  144  clear
+  145  l
+  146  clear
+  147  pwd
+  148  cd Downloads
+  149  l
+  150  mv ModernizingAsynchronousCode.zip ~/workspace/Apple_Projects
+  151  cd ~/workspace/Apple_Projects
+  152  l
+  153  unzip ModernizingAsynchronousCode.zip
+  154  clear
+  155  rm ModernizingAsynchronousCode.zip
+  156  cd ModernizingAsynchronousCode
+  157  l
+  158  cd StartingProject
+  159  l
+  160  code .
+  161  xed .
+  162  clear
+  163  http
+  164  paw
+  165  brew upgrade
+  166  brew service jenkins status
+  167  brew services jenkins status
+  168  brew services jenkins-lts status
+  169  brew services jenkins-lts
+  170  brew services --all
+  171  brew services info jenkins
+  172  brew services info jenkins-lts
+  173  brew services restart jenkins-lts
+  174  more .jenkins/secrets/initialAdminPassword
+  175  pwd
+  176  cd .jenkins/secrets
+  177  l
+  178  more master.key
+  179  cat /var/lib/jenkins/secrets/initialAdminPassword
+  180  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  181  sudo more /var/log/jenkins.log\n
+  182  brew services stop jenkins-lts
+  183  clear
+  184  cd ~
+  185  brew install http
+  186  clear
+  187  java --version
+  188  clear
+  189  cd /Library/Java
+  190  l
+  191  cd JavaVirtualMachines
+  192  ls -ltr
+  193  brew upgrade
+  194  clear
+  195  brew --version
+  196  brew updae
+  197  brew update
+  198  clear
+  199  brew search --formulae java
+  200  brew search --formulae openjdk
+  201  brew install openjdk
+  202  brew install openjdk@17
+  203  brew install openjdk@11
+  204  java -version
+  205  java_home
+  206  java_home /usr/libexec/java_home -V
+  207  /usr/libexec/java_home -V
+  208  cd /opt/homebrew/Cellar
+  209  l
+  210  clear
+  211  ls -ltr
+  212  cd openjdk
+  213  ;
+  214  l
+  215  clear
+  216  cd 19.0.2
+  217  l
+  218  clear
+  219  cd bin
+  220  l s-ltr
+  221  ls -ltr
+  222  ./java --version
+  223  clear
+  224  pwd
+  225  c d..
+  226  pwd
+  227  cd ..
+  228  pwd
+  229  cd ..
+  230  ls-ltr
+  231  ls -ltr
+  232  cd ..
+  233  ls -ltr
+  234  pwd
+  235  \tcd /opt/homebrew/opt
+  236  l
+  237  clear
+  238  ls -ltr
+  239  brew info openjdk
+  240  cd /Library/Java/JavaVirtualMachines
+  241  l
+  242  clear
+  243  ls -ltr
+  244  java --version
+  245  sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk
+  246  l
+  247  rm openjdk.jdk
+  248  rm openjdk.jd
+  249  rm openjdk.jdk
+  250  sudo openjdk.jdk
+  251  sudo rm openjdk.jdk
+  252  ls -ltr
+  253  clear
+  254  sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+  255  l
+  256  sudo ln -sfn /opt/homebrew/opt/openjdk@19/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-19.jdk
+  257  l
+  258  clear
+  259  /usr/libexec/java_home -v
+  260  /usr/libexec/java_home -V
+  261  java -version
+  262  /usr/libexec/java_home -v 17
+  263  java -version
+  264  /usr/libexec/java_home -v 17
+  265  vi ~/.zshrc
+  266  clear
+  267  java -version
+  268  java-17
+  269  java -version
+  270  java-17
+  271  java -version
+  272  java-19
+  273  java -version
+  274  java-11
+  275  java -version
+  276  clear
+  277  java-17
+  278  pwd
+  279  cd workspace/playground-old
+  280  code .
+  281  ls -ltr
+  282  ls -la
+  283  rm -rf .gradle
+  284  rm -rf .idea
+  285  clear
+  286  pwd
+  287  cd ..
+  288  rm -rf playground-old
+  289  clear
+  290  brew install httpie
+  291  clear
+  292  http :8080/
+  293  http :8080/hello
+  294  clear
+  295  http :8080/hello
+  296  clear
+  297  http :8080/hello
+  298  clear
+  299  ls -ltr
+  300  clear
+  301  l
+  302  clear
+  303  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger
+  304  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Bundle/Application/88DB5D3C-095C-45EE-B0F4-5C8CA0B15479/Scrumdinger.app\n
+  305  ls -ltr
+  306  more Scrumdinger
+  307  clear
+  308  pwd
+  309  ls -ltr
+  310  pwd
+  311  cd ..
+  312  l
+  313  cd ~
+  314  l
+  315  cd Documents
+  316  l
+  317  clear
+  318  ls -ltr
+  319  pwd
+  320  cd -
+  321  pwd
+  322  cd --
+  323  pwd
+  324  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger data
+  325  l
+  326  pwd
+  327  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger data
+  328  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Data/Application/412FB2F7-0028-4C1F-8409-FBD5F5E2AA4B\n
+  329  l
+  330  clear
+  331  ls -ltr
+  332  l
+  333  cd Documents
+  334  l
+  335  clear
+  336  more scrums.data
+  337  brew update
+  338  brew install httpie
+  339  http
+  340  clear
+  341  l
+  342  more scrums.data
+  343  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger data
+  344  l
+  345  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Data/Application/412FB2F7-0028-4C1F-8409-FBD5F5E2AA4B\n
+  346  xcrun simctl get_app_container booted com.example.apple-samplecode.Scrumdinger data
+  347  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/15C3AF7D-A30F-4B4F-8E38-6CC9AFE2FB83/data/Containers/Data/Application/3F80152A-36DD-4CFE-923F-5F063E2D9F25
+  348  clear
+  349  l
+  350  cd Documents
+  351  ls
+  352  code .
+  353  pwd
+  354  clear
+  355  cd workspace/Apple_Projects
+  356  l
+  357  rm HelloApple
+  358  rm -rf HelloApple
+  359  rm -rf ModernizingAsynchronousCode
+  360  rm -rf PassingDataWithBindings
+  361  rm -rf PersistingData
+  362  rm -rf SPackage
+  363  rm -rf SPackageExec
+  364  rm -rf Scrumdinger
+  365  rm -rf SwiftPlayGround
+  366  rm -rf UpdatingAppData
+  367  l
+  368  clear
+  369  rm .DS_Store
+  370  ls -ltr
+  371  rm .vscode
+  372  rm -rf .vscode
+  373  ls -ltr
+  374  pwd
+  375  ls -ltr
+  376  mv ~/Downloads/TranscribingSpeechToText.zip .
+  377  l
+  378  unzip TranscribingSpeechToText.zip
+  379  clear
+  380  l
+  381  rm TranscribingSpeechToText.zip
+  382  cd TranscribingSpeechToText
+  383  xcode .
+  384  ls -ltr
+  385  pwd
+  386  cd ..
+  387  l
+  388  rm -rf PersistingData
+  389  ls -ltr
+  390  clear
+  391  cd TranscribingSpeechToText
+  392  clear
+  393  pwd
+  394  clear
+  395  pwd
+  396  cd Photos
+  397  cd iCloud_Photos_30Mar2023
+  398  ls
+  399  ls -ltr
+  400  mv 1/* .
+  401  mv 2/* .
+  402  mv 3/* .
+  403  mv 4/* .
+  404  mv 5/* .
+  405  mv 6/* .
+  406  pwd
+  407  cd Applications
+  408  cd ..
+  409  cd workspace
+  410  ls -ltr
+  411  cd Apple_Projects
+  412  l
+  413  git clone https://github.com/google/GoogleSignIn-iOS/tree/main/Samples/Swift/DaysUntilBirthday
+  414  git clone https://github.com/google/GoogleSignIn-iOS
+  415  clear
+  416  l
+  417  cd GoogleSignIn-iOS
+  418  l
+  419  cd Samples
+  420  l
+  421  clear
+  422  cd Swift
+  423  l
+  424  cd DaysUntilBirthday
+  425  l
+  426  clear
+  427  ls -ltr
+  428  open DaysUntilBirthdayForPod.xcodeproj
+  429  pwd
+  430  cd workspace
+  431  cd pact-mock-server
+  432  cd ..
+  433  git clone https://github.com/simonqian/react-helloworld
+  434  clear
+  435  ls -ltr
+  436  cd react-advanced-2020
+  437  clear
+  438  code .
+  439  npm start
+  440  npm install got
+  441  c;ear
+  442  npm start
+  443  npm clean install
+  444  npm install
+  445  npm start
+  446  npm install
+  447  npm i got
+  448  pwd
+  449  cd ..
+  450  ls -ltr
+  451  cd react-helloworld
+  452  code .
+  453  npm install
+  454  clear
+  455  npm start
+  456  npm install got
+  457  clear
+  458  npm start
+  459  npm install
+  460  npm start
+  461  npm install
+  462  clear
+  463  npm start
+  464  sudo touch /.VolumeIcon.icns
+  465  clear
+  466  npm start
+  467  clear
+  468  npm install got
+  469  npm install
+  470  npm upgrade
+  471  clear
+  472  npm audit fix
+  473  clear
+  474  npm install got
+  475  clear
+  476  pwd
+  477  npm start
+  478  rm -rf node_modules
+  479  rm -f package-lock.json
+  480  npm cache clean --force
+  481  npm install
+  482  npm stat
+  483  npm start
+  484  npm install
+  485  npm start
+  486  npm install http2
+  487  npm start
+  488  clear
+  489  pwd
+  490  cd workspace
+  491  ls -ltr
+  492  cd Apple_Projects
+  493  ls -tlr
+  494  cd budget
+  495  clear
+  496  git st
+  497  clear
+  498  git init
+  499  git st
+  500  rm -rf Budget
+  501  ls -ltr
+  502  rm -rf Budget
+  503  rm -rf BudgetPlay
+  504  clear
+  505  cd ..
+  506  ls -ltr
+  507  pwd
+  508  rm -rf budget
+  509  ls -ltr
+  510  pwd
+  511  cd ..
+  512  ls -ltr
+  513  cd Apple_Projects
+  514  ls -ltr
+  515  pwd
+  516  ls -tlr
+  517  clear
+  518  cd Budget
+  519  ls -ltr
+  520  git st
+  521  git init
+  522  git st
+  523  git add .
+  524  clear
+  525  ls -ltr
+  526  git st
+  527  git add .
+  528  git commit -am "Initialize the project"
+  529  clear
+  530  git push
+  531  pwd
+  532  cd ..
+  533  pwd
+  534  ls -ltr
+  535  mv Budget Budget-temp
+  536  git clone git@github.com:mahiznan/budget-ios.git
+  537  cd budget-ios
+  538  ls -ltr
+  539  clear
+  540  ls -ltr
+  541  pwd
+  542  cd ..
+  543  ls -ltr
+  544  cd budget-ios
+  545  mv ../Budget-temp/* .
+  546  ls -ltr
+  547  git st
+  548  clear
+  549  ls -la
+  550  more .gitignore
+  551  clear
+  552  ls -ltr
+  553  git st
+  554  more .DS_Store
+  555  echo ".DS_Store" >> .gitignore
+  556  git st
+  557  git add .
+  558  git st
+  559  git commit -am "Initialize project"
+  560  git push
+  561  clear
+  562  pwd
+  563  clear
+  564  pwd
+  565  cd workspace/Apple_Projects
+  566  l
+  567  clear
+  568  rm -rf Budget-temp
+  569  cd budget-ios
+  570  l
+  571  clear
+  572  git st
+  573  git diff Budget.xcodeproj/project.pbxproj
+  574  git diff Budget.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+  575  git st
+  576  clear
+  577  git st
+  578  clear
+  579  ls -ltr
+  580  ls -tlr
+  581  git st
+  582  more Budget/Info.plist
+  583  cler
+  584  clear
+  585  ls -ltr
+  586  clear
+  587  pwd
+  588  cd workspace/Apple_Projects/budget-ios
+  589  clear
+  590  git st
+  591  git add .
+  592  git commit -am "[add otp login feature]
+  593  git commit -am "add phone number based login feature"
+  594  git push
+  595  clear
+  596  ls -ltr
+  597  pwd
+  598  clear
+  599  pwd
+  600  ls -ltr
+  601  pwd
+  602  ls -ltr
+  603  pwd
+  604  cd ..
+  605  ls -ltr
+  606  pwd
+  607  cd /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Resources
+  608  ls -lr
+  609  clear
+  610  ls -ltr
+  611  ls -ltr|grep plist
+  612  cp IDETextKeyBindingSet.plist ~/Desktop
+  613  cd ~/Desktop
+  614  l
+  615  code .
+  616  ped
+  617  pwd
+  618  cd -
+  619  pwd
+  620  sudo ~/Desktop/IDETextKeyBindingSet.plist .
+  621  clear
+  622  sudo copy ~/Desktop/IDETextKeyBindingSet.plist .
+  623  sudo cp ~/Desktop/IDETextKeyBindingSet.plist .
+  624  sudo code .
+  625  sudo cp ~/Desktop/IDETextKeyBindingSet.plist .
+  626  open .
+  627  ls -tlr IDETextKeyBindingSet.plist
+  628  chmode 755 IDETextKeyBindingSet.plist 
+  629  chmod 755 IDETextKeyBindingSet.plist 
+  630  sudo chmod 755 IDETextKeyBindingSet.plist
+  631  clear
+  632  ls -ltr
+  633  more IDETextKeyBindingSet.plist
+  634  cd ~/workspace/Apple_Projects/budget-ios
+  635  clear
+  636  pwd
+  637  cd /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources
+  638  ls -ltr
+  639  xcode IDETextKeyBindingSet.plist
+  640  code IDETextKeyBindingSet.plist
+  641  open .
+  642  cd /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources/\n
+  643  clear
+  644  ls -ltr
+  645  sudo vi IDETextKeyBindingSet.plist
+  646  ls -ltr IDETextKeyBindingSet.plist
+  647  sudo chmod 755 IDETextKeyBindingSet.plist
+  648  open .
+  649  ls -ltr IDETextKeyBindingSet.plist
+  650  sudo chmod 755 IDETextKeyBindingSet.plist
+  651  clear
+  652  cd ~
+  653  pwd
+  654  cd workspace/Apple_Projects
+  655  ls
+  656  git clone https://github.com/WesCSK/SwiftUI-Firebase-Authenticate-Using-Google-Sign-In
+  657  cd SwiftUI-Firebase-Authenticate-Using-Google-Sign-In
+  658  xcode .
+  659  code .
+  660  pwd
+  661  cd ..
+  662  ls -ltr
+  663  rm -rf SwiftUI-Firebase-Authenticate-Using-Google-Sign-In
+  664  ls -ltr
+  665  clear
+  666  ls -ltr
+  667  rm -rf GoogleSignIn-iOS
+  668  ls -ltr
+  669  cd budget-ios
+  670  ls -ltr
+  671  git st
+  672  git add .
+  673  git commit -am "Add google,apple sign in options"
+  674  git push
+  675  clear
+  676  pwd
+  677  cd /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources
+  678  ls -ltr
+  679  open IDETextKeyBindingSet.plist
+  680  clear
+  681  ls -ltr
+  682  clear
+  683  cd workspace/Apple_Projects
+  684  cd budget-ios
+  685  git st
+  686  clear
+  687  git add .
+  688  git commit -m "Implement tab option"
+  689  git push
+  690  pwd
+  691  cd workspace/Apple_Projects
+  692  ls -ltr
+  693  cd GlintCrypto
+  694  clear
+  695  git init
+  696  git st
+  697  git add .
+  698  git commit -am "Setting up the repo"
+  699  clear
+  700  git remote add origin git@github.com:mahiznan/glintcypto.git
+  701  git push
+  702  git push --set-upstream origin main
+  703  git pull
+  704  git st
+  705  git push
+  706  ls -ltr
+  707  git push --set-upstream origin main
+  708  git pull
+  709  git pull origin main
+  710  git branch
+  711  git pull
+  712  clear
+  713  ls -ltr
+  714  git lg
+  715  git st
+  716  git push
+  717  git push --set-upstream origin main
+  718  git lg
+  719  git rebase origin/main
+  720  git lg
+  721  git push
+  722  git push --set-upstream origin main
+  723  clear
+  724  git lg
+  725  cleart
+  726  clear
+  727  ls -ltr
+  728  clear
+  729  ls -ltr
+  730  git st
+  731  git branch
+  732  git kg
+  733  git lg
+  734  clear
+  735  git pull
+  736  curl https://api.coingecko.com/api/v3/coins/markets\?vs_currency\=sgd\&order\=market_cap_desc\&per_page\=250\&page\=1\&sparkline\=true\&price_change_percentage\=24h\&locale\=en\n
+  737  curl -X 'GET' \\n  'https://api.coingecko.com/api/v3/coins/markets?vs_currency=sgd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h&locale=en' \\n  -H 'accept: application/json'
+  738  clear
+  739  curl -X 'GET' \\n  'https://api.coingecko.com/api/v3/coins/markets?vs_currency=sgd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h&locale=en' \\n  -H 'accept: application/json'
+  740  ssh-keygen -t ecdsa -b 521 -C "rajeshmepco@gmail.com"
+  741  clear
+  742  pwd
+  743  cd workspace/Apple_Projects
+  744  cd budget-ios
+  745  git st
+  746  clear
+  747  git push
+  748  clear
+  749  pwd
+  750  cd workspace/Apple_Projects
+  751  ls -ltr
+  752  cd budget-ios
+  753  ls -ltr
+  754  git st
+  755  git push
+  756  pwd
+  757  xcrun get_app_container booted glint.app.GlintCrypto
+  758  xcrun get_app_container booted glint.app.GlintCrypto data
+  759  xcrun get_app_container booted glint.app.glintcrypto data
+  760  xcrun simctl get_app_container booted glint.app.glintcrypto data
+  761  xcrun simctl get_app_container booted glint.app.GlintCrypto data
+  762  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/C41B32FF-9ACF-4525-BD66-FACD5A2932D5/data/Containers/Data/Application/4027C07A-F7DB-4496-BCDA-5B966987FD31
+  763  ls -ltr
+  764  cd Documents
+  765  ls -ltr
+  766  clear
+  767  ls -ltr
+  768  ls -la
+  769  cd ..
+  770  l
+  771  cd tmp
+  772  ls -ltr
+  773  ls -la
+  774  clear
+  775  cd ..
+  776  ls -ltr
+  777  cd SystemData
+  778  ls -ltr
+  779  ls -la
+  780  clear
+  781  pwd
+  782  cd ..
+  783  ls -la
+  784  cd tmp
+  785  ls -la
+  786  clear
+  787  cd ..
+  788  ls -ltr
+  789  pwd
+  790  cd ..
+  791  pwd
+  792  ls -ltr
+  793  pwd
+  794  cd ..
+  795  ls -ltr
+  796  cd Application
+  797  ls -ltr
+  798  po NSHomeDirectory()\nls
+  799  clear
+  800  xcrun simctl get_app_container booted glint.app.GlintCrypto cache
+  801  xcrun simctl get_app_container booted glint.app.GlintCrypto app
+  802  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/C41B32FF-9ACF-4525-BD66-FACD5A2932D5/data/Containers/Bundle/Application/673E4B47-F964-4E99-A10F-F2D70A361C14/GlintCrypto.app
+  803  ls -ltr
+  804  clear
+  805  ls -ltr
+  806  more Assets.car
+  807  clear
+  808  ls -ltr
+  809  pwd
+  810  cd _CodeSignature
+  811  ls -ltr
+  812  more CodeResources
+  813  clear
+  814  ped
+  815  cd ..
+  816  pwd
+  817  xcrun simctl get_app_container booted glint.app.GlintCrypto 
+  818  xcrun simctl get_app_container booted glint.app.GlintCrypto cache
+  819  xcrun simctl get_app_container booted glint.app.GlintCrypto data
+  820  cd /Users/rajeshkumarm/Library/Developer/CoreSimulator/Devices/C41B32FF-9ACF-4525-BD66-FACD5A2932D5/data/Containers/Data/Application/4027C07A-F7DB-4496-BCDA-5B966987FD31\n
+  821  ls -ltr
+  822  find . -name "coin_images" -exec ls -ltr \{};
+  823  find . -name "coin_images" -exec ls -ltr;
+  824  find . -name "coin_images" -exec ls -ltr {}/;
+  825  find . -name "coin_images" -type d
+  826  clear
+  827  pwd
+  828  cd Library
+  829  ls -ltr
+  830  cd Caches
+  831  ls -ltr
+  832  cd coin_images
+  833  ls -ltr
+  834  open .
+  835  pwd
+  836  cd ~/workspace/Apple_Projects
+  837  cd budget-ios
+  838  ls -ltr
+  839  clear
+  840  git st
+  841  git push
+  842  git remote -v
+  843  git push
+  844  git st
+  845  cd ../GlintCrypto
+  846  git st
+  847  clear
+  848  git st
+  849  git diff
+  850  git diff 
+  851  git st
+  852  git diff 
+  853  git add .
+  854  git lg
+  855  git commit --amend\n
+  856  git st
+  857  git push
+  858  clear
+  859  pwd
+  860  cd workspace/Apple_Projects/GlintCrypto
+  861  git st
+  862  git add .
+  863  git commit -am "Add search bar"
+  864  git push
+  865  ls -tlr
+  866  pwd
+  867  cd workspace/Apple_Projects
+  868  cd GlintCrypto
+  869  clear
+  870  git st
+  871  git add .
+  872  git commit --amend
+  873  git push
+  874  cd ~
+  875  cd .ssh
+  876  ls -ltr
+  877  clear
+  878  ls -tlr
+  879  more id_ed25519.pub
+  880  ls -tlr
+  881  clear
+  882  git pull
+  883  clear
+  884  git st
+  885  git add .
+  886  git commit -am "Implement max diamond problem"
+  887  git push
+  888  git st
+  889  git add .
+  890  git commit -am "Add problem of the day"
+  891  git push
+  892  git st
+  893  git add .
+  894  git commit -m "Add problem description"
+  895  git push
+  896  clear
+  897  pwd
+  898  find Dropbox
+  899  cd ~/Library/CloudStorage
+  900  ls -ltr
+  901  cd Dropbox
+  902  l
+  903  open .
+  904  cd ..
+  905  open .
+  906  git st
+  907  git co .
+  908  clear
+  909  ls -ltr
+  910  omz update
+  911  clear
+  912  ls -ltr
+  913  git st
+  914  git add .
+  915  git commit -am "Adding additional challenges"
+  916  clear
+  917  git push
+  918  clear
+  919  git st
+  920  clear
+  921  git pull
+  922  clear
+  923  ls -ltr
+  924  git st
+  925  git add .
+  926  git commit -am "add sudoku solver"
+  927  clear
+  928  git push
+  929  clear
+  930  ls -ltr
+  931  clear
+  932  l
+  933  clear
+  934  l
+  935  c
+  936  clear
+  937  git pull
+  938  clear
+  939  pwd
+  940  cd workspace
+  941  ls -ltr
+  942  cd challenges
+  943  ls -ltr
+  944  git pull
+  945  git remote -v
+  946  ls -la
+  947  rm -rf .idea
+  948  idea .
+  949  rm /usr/local/bin/idea
+  950  sudo rm /usr/local/bin/idea
+  951  echo $PATH
+  952  cd ~
+  953  ls -ltr
+  954  ls -la
+  955  more .zshrc
+  956  clear
+  957  ls -la
+  958  more .zshrc
+  959  more .ssh
+  960  cd .ssh
+  961  ls -ltr
+  962  cd ..
+  963  ls -ltr
+  964  pwd
+  965  ls -la
+  966  cd .oh-my-zsh
+  967  ls -ltr
+  968  ls -la
+  969  cd ..
+  970  ls -ltr
+  971  ls -la
+  972  more .zshrc
+  973  vi .zshrc
+  974  idea
+  975  pwd
+  976  cd ..
+  977  cd workspace
+  978  ls -ltr
+  979  idea
+  980  clear
+  981  vi .zshrc
+  982  idea
+  983  cd workspace
+  984  idea
+  985  cd /etc/paths.d
+  986  ls -ltr
+  987  more 10-cryptex
+  988  cd $ZSH_CUSTOM
+  989  pwd
+  990  ls -ltr
+  991  more example.zsh
+  992  nano my_paths.zsh
+  993  ls -ltr
+  994  more my_paths.zsh
+  995  clear
+  996  ls -ltr
+  997  vi my_paths.zsh
+  998  idea 
+  999  clear
+ 1000  pwd
+ 1001  cd workspace
+ 1002  cd challenges
+ 1003  ls -ltr
+ 1004  ls -la
+ 1005  rm -rf .idea
+ 1006  idea .
+ 1007  git st
+ 1008  git add .
+ 1009  git commit -am "Add two sum problem"
+ 1010  git push
+ 1011  git st
+ 1012  clear
+ 1013  git st
+ 1014  git add .
+ 1015  git commit -am "Add longest substring problem"
+ 1016  git push
+ 1017  git st
+ 1018  clear
+ 1019  git add .
+ 1020  git commit -am "Add optimised approach for longest substring problem\n"
+ 1021  gitpush
+ 1022  git push
+ 1023  clear
+ 1024  git st
+ 1025  clear
+ 1026  git add 
+ 1027  git add .
+ 1028  git commit -am "Add longest palindrom substring"
+ 1029  git push
+ 1030  git st
+ 1031  git pull
+ 1032  git st
+ 1033  git add .
+ 1034  git commit -am "Add regular pattern match"
+ 1035  git push
+ 1036  git st
+ 1037  git add .
+ 1038  git  commit -am "Add recursive solution for pattern matching"
+ 1039  git push
+ 1040  git st
+ 1041  git add .
+ 1042  git commit -am "Add additional progmran"
+ 1043  git push
+ 1044  git st
+ 1045  git add .
+ 1046  git commit -am "Add longest common prefix problem"
+ 1047  git push
+ 1048  git st
+ 1049  git add .
+ 1050  git commit -m "Add better solution"
+ 1051  git push
+ 1052  git st
+ 1053  git add .
+ 1054  git commit -am "Add three sum problem"
+ 1055  git push
+ 1056  git st
+ 1057  git add .
+ 1058  git commit -m "Add better solution for three sum zero problem"
+ 1059  git push
+ 1060  git add .
+ 1061  git commit -am "Add delete nth node from end in a linked list"
+ 1062  git pus
+ 1063  git push
+ 1064  clear
+ 1065  pwd
+ 1066  cd workspace/Apple_Projects
+ 1067  ls -ltr
+ 1068  clear
+ 1069  ls -ltr
+ 1070  cd GlintBudget
+ 1071  ls -ltr
+ 1072  cd GlintBudget
+ 1073  ls -ltr
+ 1074  clear
+ 1075  ls -ltr
+ 1076  pwd
+ 1077  cd GlintBudget.xcodeproj
+ 1078  ls -ltr
+ 1079  pwd
+ 1080  cd ..
+ 1081  pwd
+ 1082  cd ..
+ 1083  ls -ltr
+ 1084  pwd
+ 1085  cd ..
+ 1086  mv GlintBudget/GlintBudget GlintBudget
+ 1087  ls -ltr
+ 1088  mv GlintBudget GlintBudgetT
+ 1089  mv GlintBudgetT/GlintBudget .
+ 1090  ls -ltr
+ 1091  cd GlintBudgetT
+ 1092  ls -tlr
+ 1093  clear
+ 1094  ls -tlr
+ 1095  pwd
+ 1096  cd ..
+ 1097  sl -tlr
+ 1098  ls -tlr
+ 1099  rm -rf GlintBudgetT
+ 1100  ls -ltr
+ 1101  cd Glint
+ 1102  cd GlintBudget
+ 1103  ls -ltr
+ 1104  clear
+ 1105  cd GlintBudget
+ 1106  ls -ltr
+ 1107  cd Assets.xcassets
+ 1108  ls -ltr
+ 1109  clear
+ 1110  pwd
+ 1111  cd ..
+ 1112  ls -tlr
+ 1113  pwd
+ 1114  cd ..
+ 1115  ls -ltr
+ 1116  pwd
+ 1117  ls -tlr
+ 1118  cd ..
+ 1119  ls -ltr
+ 1120  mv GlintBudget GlintBudget123
+ 1121  ls -tlr
+ 1122  git clone https://github.com/mahiznan/GlintBudget
+ 1123  ls -ltr
+ 1124  cd GlintBudget
+ 1125  ls -ltr
+ 1126  clear
+ 1127  ls -ltr
+ 1128  mv ../GlintBudget123/* .
+ 1129  ls -ltr
+ 1130  cd ..
+ 1131  ls -ltr
+ 1132  rm -rf GlintBudget123
+ 1133  cd GlintBudget
+ 1134  l sa-ltr
+ 1135  clear
+ 1136  ls -ltr
+ 1137  ;
+ 1138  l
+ 1139  g
+ 1140  g log
+ 1141  g status
+ 1142  clear
+ 1143  git add .
+ 1144  git commit -am "Initialise the repository"
+ 1145  git st
+ 1146  clear
+ 1147  git push
+ 1148  git remote -v
+ 1149  git push
+ 1150  git pull
+ 1151  git push\
+ 1152  git push
+ 1153  pwd
+ 1154  cd ..
+ 1155  ls -ltr
+ 1156  cd workspace/Apple_Projects
+ 1157  l s-ltr
+ 1158  ls -tlr
+ 1159  mv GlintBudget GlintBudgetDoNotDelete
+ 1160  clear
+ 1161  mb GlintBudgetDoNotDelete GlintBudget
+ 1162  mv GlintBudgetDoNotDelete GlintBudget
+ 1163  cd GlintBudget
+ 1164  git pull
+ 1165  git config list
+ 1166  git config --list
+ 1167  git credential-osxkeychain erase
+ 1168  git pull
+ 1169  git st
+ 1170  git push
+ 1171  clear
+ 1172  git pull
+ 1173  clear
+ 1174  git st
+ 1175  git add .
+ 1176  git commit -am "Add balanced parantheses problem"
+ 1177  git push
+ 1178  git co .
+ 1179  git st
+ 1180  clear
+ 1181  git st
+ 1182  git co .
+ 1183  clear
+ 1184  git st
+ 1185  git add .
+ 1186  git commit -am "Simplified the solution"
+ 1187  git push
+ 1188  git add ,
+ 1189  git add .
+ 1190  git commit -am "Add merge linked list problem"
+ 1191  git push
+ 1192  git st
+ 1193  clear
+ 1194  git add .
+ 1195  git commit -am "Add merge sorted linked list"
+ 1196  git push
+ 1197  clear
+ 1198  git st
+ 1199  cledar
+ 1200  clear
+ 1201  git st
+ 1202  git add .
+ 1203  git commit -am "Adding new code"
+ 1204  git push
+ 1205  git st
+ 1206  git add .
+ 1207  git commit -am "update comment line"
+ 1208  git push
+ 1209  git st
+ 1210  clear
+ 1211  git pull
+ 1212  git st
+ 1213  git add .
+ 1214  git commit -am "Add solution to generate parantheses problem:
+ 1215  git commit -am "Add solution to generate parantheses problem"
+ 1216  git push
+ 1217  git add .
+ 1218  git commit -am "Add one more solution"
+ 1219  git push
+ 1220  git st
+ 1221  git add .
+ 1222  git commit -am "Add search in rotated array problem"
+ 1223  git push
+ 1224  git st
+ 1225  clear
+ 1226  git add .
+ 1227  git commit -am "Add improved solution"
+ 1228  git push
+ 1229  git st
+ 1230  git add .
+ 1231  git commit -am "Add count and say problem"
+ 1232  git push
+ 1233  git add .
+ 1234  git st
+ 1235  sudo xcodebuild -license
+ 1236  git st
+ 1237  cat .gitignore
+ 1238  echo ".DS_Store" >> .gitignore
+ 1239  git st
+ 1240  git add .
+ 1241  git st
+ 1242  git commit -am "Adde new problem"
+ 1243  git push
+ 1244  git add .
+ 1245  git commit -m "Adding solution to the trap water problem"
+ 1246  git push
+ 1247  git st
+ 1248  git add .
+ 1249  git commit -am "Add additional solutions"
+ 1250  git push
+ 1251  pwd
+ 1252  clear
+ 1253  ls -ltr
+ 1254  pwd
+ 1255  cd workspace/Apple_Projects
+ 1256  ls -ltr
+ 1257  cd GlintBudget
+ 1258  ls -ltr
+ 1259  clear
+ 1260  ls -ltr
+ 1261  clear
+ 1262  ls -ltr
+ 1263  ls -la
+ 1264  touch .gitignore
+ 1265  echo ".DS_Store" >> .gitignore
+ 1266  git st
+ 1267  clear
+ 1268  git pull
+ 1269  clear
+ 1270  git st
+ 1271  git add .
+ 1272  git commit -am "Add new problem"
+ 1273  git push
+ 1274  git st
+ 1275  git add .
+ 1276  git commit -am "Adding recursive solution to wildcard matching problem"
+ 1277  git push
+ 1278  git st
+ 1279  git add .
+ 1280  git commit -am "Add additonal solutions"
+ 1281  git push
+ 1282  git st
+ 1283  git add .
+ 1284  git commit -am "Add DP solution to wild card matching problem"
+ 1285  git push
+ 1286  git st
+ 1287  cledar
+ 1288  clear
+ 1289  git st
+ 1290  git add ,
+ 1291  git add .
+ 1292  git commit -am "Add maximum sum array problem"
+ 1293  git push
+ 1294  clear
+ 1295  git st
+ 1296  git add .
+ 1297  git commit -am "Add max sum array problem"
+ 1298  git push
+ 1299  git st
+ 1300  git add .
+ 1301  git commit --amend
+ 1302  git push
+ 1303  git pull
+ 1304  git st
+ 1305  git push
+ 1306  git pull
+ 1307  git config pull.ff only
+ 1308  git pull
+ 1309  git config pull.rebase true
+ 1310  git pull
+ 1311  git st
+ 1312  clear
+ 1313  git pull
+ 1314  git config pull.ff
+ 1315  git pull
+ 1316  git rebase main
+ 1317  git push
+ 1318  git co -b "sample"
+ 1319  git branch -D main
+ 1320  git co main
+ 1321  git pull
+ 1322  git merge sample
+ 1323  git push
+ 1324  git st
+ 1325  clear
+ 1326  git st
+ 1327  git add .
+ 1328  git commit -am "Add comment"
+ 1329  git push
+ 1330  git st
+ 1331  vlear
+ 1332  clear
+ 1333  git st
+ 1334  git add .
+ 1335  git commit -am "Add new problem on matrix rotation"
+ 1336  git push
+ 1337  pwd
+ 1338  cd workspace/Apple_Projects
+ 1339  ls -ltr
+ 1340  cd Glint
+ 1341  cd GlintBudget
+ 1342  ls -tlr
+ 1343  git pull
+ 1344  git st
+ 1345  git config pull.rebase true
+ 1346  git pull
+ 1347  clear
+ 1348  git st
+ 1349  git diff GlintBudget.xcodeproj/project.xcworkspace/xcuserdata/rajeshkumarm.xcuserdatad/UserInterfaceState.xcuserstate
+ 1350  git log
+ 1351  git lg --oneline
+ 1352  git co 3c997d5 -- GlintBudget.xcodeproj/project.xcworkspace/xcuserdata/rajeshkumarm.xcuserdatad/UserInterfaceState.xcuserstate
+ 1353  git co 3c997d5 -- GlintBudget/Authentication/AuthenticationManager.swift
+ 1354  git co 3c997d5 -- GlintBudget/Authentication/SettingsView.swift
+ 1355  git st
+ 1356  git co 3c997d5 -- GlintBudget/Authentication/SignInWithGoogleHelper.swift
+ 1357  git st
+ 1358  git add .
+ 1359  git rebase --continue
+ 1360  clear
+ 1361  git push
+ 1362  mysqld
+ 1363  pwd
+ 1364  cd softwares
+ 1365  ls -ltr
+ 1366  clear
+ 1367  ls -tlr
+ 1368  pwd
+ 1369  cd ..
+ 1370  ls -ltr
+ 1371  cd softwares
+ 1372  l
+ 1373  cd ..
+ 1374  clear
+ 1375  /Applications/MAMP/Library/bin/mysql --version\n
+ 1376  type -a mysql\n
+ 1377  pwd
+ 1378  ls -tlr
+ 1379  cd Desktop
+ 1380  ls -ltr
+ 1381  cd ..
+ 1382  cd Applications
+ 1383  ls -ltr
+ 1384  cd Chrome\ Apps.localized
+ 1385  ls -tlr
+ 1386  ckear
+ 1387  pwd
+ 1388  clear
+ 1389  ls -ltr
+ 1390  clear
+ 1391  ls -ltr
+ 1392  git pull
+ 1393  clear
+ 1394  ls -ltr
+ 1395  clear
+ 1396  ls -ltr
+ 1397  clear
+ 1398  which java
+ 1399  java -version
+ 1400  brew update java
+ 1401  brew upgrade java
+ 1402  clear
+ 1403  which java
+ 1404  java -version
+ 1405  cd workspace
+ 1406  git clone https://github.com/spring-io/start.spring.io
+ 1407  cd start.spring.io
+ 1408  idea .
+ 1409  git st
+ 1410  clear
+ 1411  git diff
+ 1412  git co .
+ 1413  clear
+ 1414  mvn clean install
+ 1415  cd start-site
+ 1416  mvn spring-boot:run
+ 1417  git pull
+ 1418  clear
+ 1419  ls -ltr
+ 1420  mvn spring-boot:run
+ 1421  clear
+ 1422  ls -ltr
+ 1423  pwd
+ 1424  cd ~
+ 1425  ls -ltr
+ 1426  cd workspace
+ 1427  cd challenges
+ 1428  ls -ltr
+ 1429  git pull
+ 1430  clear
+ 1431  git st
+ 1432  git diff
+ 1433  git add .
+ 1434  git commit -am "Add additional solution"
+ 1435  clear
+ 1436  git push
+ 1437  clear
+ 1438  git pull
+ 1439  ls -ltr
+ 1440  clear
+ 1441  ls -lrt
+ 1442  clear
+ 1443  pwd
+ 1444  cd ..
+ 1445  git clone https://github.com/testcontainers/testcontainers-java
+ 1446  cd testcontainers-java
+ 1447  clear
+ 1448  ls -ltr
+ 1449  clear
+ 1450  ls -ltr
+ 1451  cd examples
+ 1452  clear
+ 1453  ls -ltr
+ 1454  cd spring-boot
+ 1455  clear
+ 1456  idea .
+ 1457  cd ..
+ 1458  ls -ltr
+ 1459  cd redis-backed-cache
+ 1460  clear
+ 1461  idea .
+ 1462  gradle --version
+ 1463  gradle
+ 1464  gradle -v
+ 1465  java -version
+ 1466  brew install gradle
+ 1467  gradle -v
+ 1468  gradle build
+ 1469  clear
+ 1470  pwd
+ 1471  cd workspace
+ 1472  ls -ltr
+ 1473  cd Apple_Projects
+ 1474  ls -ltr
+ 1475  cd GlintBudget
+ 1476  clear
+ 1477  ls -tlr
+ 1478  git st
+ 1479  git diff
+ 1480  clear
+ 1481  git pull
+ 1482  git st
+ 1483  git co .
+ 1484  clear
+ 1485  git pull
+ 1486  clear
+ 1487  git st
+ 1488  git co .
+ 1489  git pull
+ 1490  clear
+ 1491  git st
+ 1492  git add .
+ 1493  git commit -am "Implement Codable"
+ 1494  git push
+ 1495  code .
+ 1496  pwd
+ 1497  cd workspace/Apple_Projects
+ 1498  ls -tlr
+ 1499  cd GlintBudget
+ 1500  clear
+ 1501  git lg
+ 1502  git co a29bddb -b "bug-fix"
+ 1503  git st
+ 1504  git co .
+ 1505  git co a29bddb -b "bug-fix"
+ 1506  git st
+ 1507  clear
+ 1508  git co master
+ 1509  git st
+ 1510  git co .
+ 1511  git st
+ 1512  git reset .
+ 1513  git st
+ 1514  git co .
+ 1515  glear
+ 1516  gt
+ 1517  ckear
+ 1518  clear
+ 1519  git st
+ 1520  rm AccountSettingsView.swift
+ 1521  rm AvatarView.swift
+ 1522  rm \tGlintBudget/Core/Settings/View/SubView/UserProfileView.swift\n
+ 1523  git st
+ 1524  clear
+ 1525  git st
+ 1526  git rm Core/Settings/View/SubView/AccountSettingsView.swift
+ 1527  git rm GlintBudget/Core/Settings/View/SubView/AccountSettingsView.swift
+ 1528  git st
+ 1529  rm GlintBudget/Core/Settings/View/SubView/AccountSettingsView.swift
+ 1530  rm GlintBudget/Core/Settings/View/SubView/AvatarView.swift
+ 1531  git st
+ 1532  git co master
+ 1533  git co masin
+ 1534  git co main
+ 1535  git pull
+ 1536  clear
+ 1537  git pull
+ 1538  clear
+ 1539  ls -ltr
+ 1540  git clone https://github.com/philippkno/InfiniteWeekView
+ 1541  cd InfiniteWeekView
+ 1542  clear
+ 1543  git pull
+ 1544  clear
+ 1545  http
+ 1546  http --version
+ 1547  clear
+ 1548  http upgrade
+ 1549  http localhost:8080/welcome
+ 1550  mysql
+ 1551  clear
+ 1552  pwd
+ 1553  cd softwares
+ 1554  ls -ltr
+ 1555  ls -tlr
+ 1556  cd ~/Applications
+ 1557  ls -ltr
+ 1558  clear
+ 1559  cd Chrome\ Apps.localized
+ 1560  ls -tlr
+ 1561  clear
+ 1562  pwd
+ 1563  cd ...
+ 1564  lks -tlr
+ 1565  clear
+ 1566  ls -ltr
+ 1567  cd Applications
+ 1568  ls -ltr
+ 1569  clear
+ 1570  cd ..
+ 1571  ls -ltr
+ 1572  cd softwares
+ 1573  sl -tlr
+ 1574  ls -ltr
+ 1575  cd ..
+ 1576  clear
+ 1577  powd
+ 1578  pwd
+ 1579  cd /
+ 1580  ls -tlr
+ 1581  find . -name "*mysql*" -exec ls -ltr {} \;
+ 1582  clear
+ 1583  pwd
+ 1584  cd /usr/local/mysql
+ 1585  ls -tlr
+ 1586  pwd
+ 1587  cd ..
+ 1588  ls -ltr
+ 1589  cd mysql
+ 1590  ls -ltr
+ 1591  cd bin
+ 1592  ls -ltr
+ 1593  clear
+ 1594  ./mysqld
+ 1595  su ./mysqld
+ 1596  pwd
+ 1597  clear
+ 1598  cd ..
+ 1599  sl -ltr
+ 1600  ls -ltr
+ 1601  cd bin
+ 1602  ls -ltr
+ 1603  ./mysql
+ 1604  cd ..
+ 1605  clear
+ 1606  ls -ltr
+ 1607  cd bin
+ 1608  ls -tlr
+ 1609  ckear
+ 1610  clear
+ 1611  pwd
+ 1612  zsh
+ 1613  zsh -h
+ 1614  zsh theme
+ 1615  ZSH_THEME
+ 1616  ls ~/.oh-my-zsh/themes/\n
+ 1617  vi ~/.zshrc
+ 1618  ls -ltr
+ 1619  l
+ 1620  ls -ltr
+ 1621  pwd
+ 1622  ls -tlr
+ 1623  cleart
+ 1624  ls -ltr
+ 1625  pwd
+ 1626  cd ..
+ 1627  ls -ltr
+ 1628  mysql.server start
+ 1629  pwd
+ 1630  cd ../mysql/bin
+ 1631  ls -tlr
+ 1632  clear
+ 1633  mysql.server start
+ 1634  ./mysql.server start
+ 1635  pwd
+ 1636  ls -tlr
+ 1637  cd ..
+ 1638  ls -ltr
+ 1639  cd support-files
+ 1640  clear
+ 1641  ls -ltr
+ 1642  mysql.server start
+ 1643  ./mysql.server start
+ 1644  su root
+ 1645  su ~1
+ 1646  ./mysql.server stop
+ 1647  clear
+ 1648  ls -ltr
+ 1649  ./mysql.server start
+ 1650  ./mysql.server restart
+ 1651  ps -aux | grep mysql
+ 1652  clear
+ 1653  http --helpo
+ 1654  http --help
+ 1655  http localhost:8080/create
+ 1656  http post localhost:8080/create
+ 1657  brew install httpie
+ 1658  http --version
+ 1659  http version
+ 1660  http --version
+ 1661  brew update
+ 1662  http POST localhost:8080/product
+ 1663  ls -tlr
+ 1664  http POST localhost:8080/product
+ 1665  ls -ltr
+ 1666  more flyway.user.toml
+ 1667  more flyway.toml
+ 1668  clear
+ 1669  ls -ltr
+ 1670  cd migrations
+ 1671  ls -ltr
+ 1672  pwd
+ 1673  more V001_20240116153655__rajeshkumarm.sql
+ 1674  pwd
+ 1675  cd ...
+ 1676  ls -ltr
+ 1677  flyway
+ 1678  flyway --version
+ 1679  clear
+ 1680  git branch
+ 1681  git pull
+ 1682  clear
+ 1683  pwd
+ 1684  ls -ltr
+ 1685  pwd
+ 1686  cd ..
+ 1687  cd ../
+ 1688  pwd
+ 1689  cd ..
+ 1690  ls -ltr
+ 1691  cd start.spring.io
+ 1692  ls -ltr
+ 1693  cd start-site
+ 1694  clear
+ 1695  mvn spring-boot:run
+ 1696  git st
+ 1697  clear
+ 1698  git add .
+ 1699  git commit -am "Fix local challenges"
+ 1700  git push
+ 1701  clear
+ 1702  git st
+ 1703  git add .
+ 1704  git commit -am "Add geeks for geeks problem"
+ 1705  git push
+ 1706  cd workspace/Apple_Projects
+ 1707  ls -ltr
+ 1708  git clone https://github.com/laevandus/SwiftChartPieExample
+ 1709  cd SwiftChartPieExample
+ 1710  clear
+ 1711  code .
+ 1712  ls -ltr
+ 1713  clear
+ 1714  ls -ltr
+ 1715  pwd
+ 1716  cd workspace/Apple_Projects
+ 1717  cd GlintBudget
+ 1718  clear
+ 1719  ls -ltr
+ 1720  git st
+ 1721  git lg
+ 1722  git co -b 24c2730 working_copy
+ 1723  quit
+ 1724  git co working_copy 24c2730
+ 1725  git co -b working_copy 24c2730
+ 1726  git st
+ 1727  git co .
+ 1728  git 
+ 1729  clear
+ 1730  git st
+ 1731  git co -b working_copy 24c2730
+ 1732  git lg
+ 1733  git co -b work a458a64
+ 1734  git st
+ 1735  git co .
+ 1736  git co -b work a458a64
+ 1737  git lg
+ 1738  git diff master --name-only
+ 1739  git diff main
+ 1740  git diff main --name-only
+ 1741  pwd
+ 1742  clear
+ 1743  cd ..
+ 1744  ls -ltr
+ 1745  mkdir temp
+ 1746  cd temp
+ 1747  ls -ltr
+ 1748  clear
+ 1749  git clone https://github.com/mahiznan/GlintBudget
+ 1750  ls -ltr
+ 1751  cd GlintBudget
+ 1752  code .
+ 1753  pwd
+ 1754  cd ../..
+ 1755  pwd
+ 1756  cd GlintBudget
+ 1757  clear
+ 1758  git st
+ 1759  clear
+ 1760  git st
+ 1761  git diff main GlintBudget/Core/Components/HeaderView.swift
+ 1762  pwd
+ 1763  git st
+ 1764  git co .
+ 1765  git branch
+ 1766  git co main
+ 1767  git pull
+ 1768  clear
+ 1769  ls -tlr
+ 1770  clear
+ 1771  ls -ltr
+ 1772  ls -tlr
+ 1773  clear
+ 1774  ls -ltr
+ 1775  ls -lrt
+ 1776  clear
+ 1777  ls -ltr
+ 1778  pwd
+ 1779  cd softwares
+ 1780  ls -ltr
+ 1781  pwd
+ 1782  clear
+ 1783  ls -ltr
+ 1784  pwd
+ 1785  mkdir redis
+ 1786  cd redis
+ 1787  mv ~/Downloads/redis-stable.tar.gz .
+ 1788  ls -ltr
+ 1789  tar -xvzf redis-stable.tar.gz
+ 1790  ls -ltr
+ 1791  cd redis-stable
+ 1792  ls -ltr
+ 1793  cd src
+ 1794  ls -ltr
+ 1795  clear
+ 1796  ls -ltr
+ 1797  pwd
+ 1798  cd ..
+ 1799  ls -ltr
+ 1800  clear
+ 1801  ls -ltr
+ 1802  make
+ 1803  make test
+ 1804  clear
+ 1805  ls -ltr
+ 1806  cd src
+ 1807  cd ../utils
+ 1808  ls -ltr
+ 1809  cear
+ 1810  pwd
+ 1811  clear
+ 1812  pwd
+ 1813  cd workspace
+ 1814  ls -tlr
+ 1815  mkdir docker
+ 1816  clear
+ 1817  git clone https://github.com/docker/welcome-to-docker
+ 1818  cd welcome-to-docker
+ 1819  clear
+ 1820  code .
+ 1821  docker build -t welcome-to-docker .
+ 1822  docker build -t hello-docker
+ 1823  docker build -t hello-docker .
+ 1824  docker build -t hello-docker
+ 1825  docker build -t hello-docker .
+ 1826  curl
+ 1827  curl http://localhost:8080
+ 1828  exit
+ 1829  clear
+ 1830  pwd
+ 1831  git st
+ 1832  git co .
+ 1833  clear
+ 1834  git st
+ 1835  clear
+ 1836  ls -tlr
+ 1837  clear
+ 1838  pwd
+ 1839  clear
+ 1840  pwd
+ 1841  clear
+ 1842  http
+ 1843  http --version
+ 1844  http localhost:8080
+ 1845  http localhost
+ 1846  http localhost/investment
+ 1847  clear
+ 1848  http localhost:80/investment
+ 1849  http localhost/investment
+ 1850  http localhost:80/investment
+ 1851  http localhost:80
+ 1852  clear
+ 1853  http localhost:8080
+ 1854  http localhost:8080/investment
+ 1855  http localhost:8080/investment/
+ 1856  http localhost/investment/
+ 1857  clear
+ 1858  http localhost/investment/products
+ 1859  clear
+ 1860  http localhost/investment/products
+ 1861  clear
+ 1862  http localhost/investment/products
+ 1863  clear
+ 1864  http localhost/investment/products
+ 1865  clear
+ 1866  http localhost/investment/products
+ 1867  http localhost/investment/product/list
+ 1868  http localhost/investment/product/1
+ 1869  http localhost/investment/product/2
+ 1870  http localhost/investment/product/3
+ 1871  http localhost/investment/product/4
+ 1872  http localhost/investment/product/5
+ 1873  clear
+ 1874  http localhost/investment/product/6
+ 1875  http localhost/investment/product/5
+ 1876  git st
+ 1877  git init
+ 1878  git add .
+ 1879  git commit -am "Simple crud repo with jpa"
+ 1880  git push
+ 1881  git remote add origin git@github.com:mahiznan/investment.git
+ 1882  git branch -M main
+ 1883  git push -u origin main
+ 1884  clear
+ 1885  http localhost/investment/product/list
+ 1886  http localhost/investment/product/1
+ 1887  clear
+ 1888  http localhost/investment/product/1
+ 1889  http DELETE localhost/investment/product/1
+ 1890  http localhost/investment/product/list
+ 1891  git st
+ 1892  git add .
+ 1893  git commit -am "add soft delete approach"
+ 1894  git push
+ 1895  clear
+ 1896  ls -ltr
+ 1897  clear
+ 1898  ls -ltr
+ 1899  clear
+ 1900  git push
+ 1901  git pull
+ 1902  clear
+ 1903  sudo spectl --master-disable
+ 1904  sudo spctl --master-disable
+ 1905  /Volumes/Disk\ Drill\ 4.4/Open\ Gatekeeper\ friendly ; exit;
+ 1906  /Volumes/DaisyDisk\ 4.21.1/Open\ Gatekeeper\ friendly ; exit;
+ 1907  sudo spctl --master-enable
+ 1908  brew upgrade mysql
+ 1909  clear
+ 1910  brew upgrade
+ 1911  clear
+ 1912  mysql_upgrade
+ 1913  cd /usr/local/mysql-8.0.29-macos12-x86_64/bin/
+ 1914  ls -ltr
+ 1915  ./mysql_upgrade
+ 1916  clear
+ 1917  tail -f /Users/rajeshkumarm/.Trash/mysql-8.4.0-macos14-arm64.dmg 
+ 1918  tail -f /usr/local/mysql/data/mysqld.local.err
+ 1919  sudo more /usr/local/mysql/data/mysqld.local.err
+ 1920  clear
+ 1921  more /usr/local/mysql/data/mysqld.local.err
+ 1922  sudo more /usr/local/mysql/data/mysqld.local.err
+ 1923  sudo spctl --master-disable
+ 1924  /Volumes/Wondershare\ UniConverter\ 15\ 15.0.3.540/Open\ Gatekeeper\ friendly ; exit;
+ 1925  /Volumes/DaisyDisk\ 4.21.1/Open\ Gatekeeper\ friendly ; exit;
+ 1926  /Volumes/CleanMyMac\ X\ 4.10.6/Open\ Gatekeeper\ friendly ; exit;
+ 1927  /tmp/tnt1053/mount/Extra/rhash ; exit;
+ 1928  sudo xattr -rd com.apple.quarantine /Applications/LockedApp.app
+ 1929  sudo xattr -rd com.apple.quarantine /Applications/CleanMyMac\ X.app/\\n
+ 1930  /Volumes/CleanMyMac\ X\ 4.10.6/Open\ Gatekeeper\ friendly ; exit;
+ 1931  cd workspace
+ 1932  ls -ltr
+ 1933  cd react-
+ 1934  cd react-helloworld
+ 1935  code .
+ 1936  ^M
+ 1937  clear
+ 1938  cd //
+ 1939  cd -
+ 1940  cd ..
+ 1941  ls -ltr
+ 1942  cd react-advanced-2020
+ 1943  git pull
+ 1944  code .
+ 1945  npm start
+ 1946  npm update
+ 1947  cd ..
+ 1948  rm -rf react-helloworld
+ 1949  brew upgdae
+ 1950  npm upgrade
+ 1951  clear
+ 1952  brew upgrade
+ 1953  npm start
+ 1954  git st
+ 1955  git co .
+ 1956  git st
+ 1957  clear
+ 1958  git pull
+ 1959  git st
+ 1960  git co .
+ 1961  git st
+ 1962  npm upgrade
+ 1963  npm audit fix
+ 1964  npm start
+ 1965  rm -rf node_modules
+ 1966  npm install
+ 1967  npm start
+ 1968  npm upgrade
+ 1969  brew update
+ 1970  brew upgrade
+ 1971  clear
+ 1972  brew update npm
+ 1973  brew upgrade npm
+ 1974  brew upgrade node
+ 1975  npm -version
+ 1976  node -version
+ 1977  node --v
+ 1978  node -v
+ 1979  sudo npm install -g n\n
+ 1980  clear
+ 1981  npx start
+ 1982  yarn start
+ 1983  npm start
+ 1984  npm install -g n\n\n
+ 1985  sudo chown -R 501:20 "/Users/rajeshkumarm/.npm"
+ 1986  npm install -g n\n\n
+ 1987  sudo npm install -g n\n\n
+ 1988  clear
+ 1989  cd react-advanced-2020
+ 1990  clear
+ 1991  npm start
+ 1992  rm -rf node_modules
+ 1993  git st
+ 1994  clear
+ 1995  rm -rf package-lock.json
+ 1996  npm upgrade
+ 1997  npm install
+ 1998  clear
+ 1999  npm start
+ 2000  npm uninstall react-scripts
+ 2001  npm install react-scripts
+ 2002  clear
+ 2003  git st
+ 2004  git diff
+ 2005  git diff package.json
+ 2006  clear
+ 2007  git diff package.json
+ 2008  rm -rf node_modules
+ 2009  npm install
+ 2010  clear
+ 2011  npm start
+ 2012  git remote
+ 2013  git remote -r
+ 2014  git remote -v
+ 2015  cd ..
+ 2016  npx create-react-app hello-react
+ 2017  cd hello-react
+ 2018  code .
+ 2019  npm start
+ 2020  clear
+ 2021  ls -ltr
+ 2022  git st
+ 2023  clear
+ 2024  git st
+ 2025  clear
+ 2026  git lg
+ 2027  clear
+ 2028  npm install
+ 2029  clear
+ 2030  npm start
+ 2031  clear
+ 2032  ls -ltr
+ 2033  echo $ZSH_THEME
+ 2034  pwd
+ 2035  ls -tlr
+ 2036  clear
+ 2037  ls -tlr
+ 2038  $ prompt -l \n\n
+ 2039  echo $ZSH_THEME
+ 2040  echo $RANDOM_THEME
+ 2041  vi .zshrc
+ 2042  ckear
+ 2043  ls -tlr
+ 2044  pwd
+ 2045  cear
+ 2046  echo $ZSH_THEME
+ 2047  cear
+ 2048  clear
+ 2049  ls -tlr
+ 2050  pwd
+ 2051  clear
+ 2052  ls -tlr
+ 2053  clear
+ 2054  brew update 
+ 2055  ckear
+ 2056  clear
+ 2057  brew install httpie
+ 2058  xcode-select --install
+ 2059  clear
+ 2060  brew install httpies
+ 2061  brew install httpie
+ 2062  brew install httpie 
+ 2063  clear
+ 2064  http localhost:8080/investment/products
+ 2065  http localhost/investment/products
+ 2066  clear
+ 2067  http localhost/investment/product/list
+ 2068  http localhost/investment/product/1
+ 2069  http localhost/investment/product/2
+ 2070  clear
+ 2071  http localhost/investment/product/5
+ 2072  http DELETE localhost/investment/product/5
+ 2073  http localhost/investment/product/5
+ 2074  http localhost/investment/product/list
+ 2075  clear
+ 2076  ls -ltr
+ 2077  "/Applications/Postgres.app/Contents/Versions/16/bin/psql" -p5432 "postgres"
+ 2078  clear
+ 2079  ls -ltr
+ 2080  cd /etc/paths.d
+ 2081  ls -ltr
+ 2082  clear
+ 2083  echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp\n
+ 2084  ls -tlr
+ 2085  clear
+ 2086  ls -tlr
+ 2087  cd Downloads
+ 2088  clear
+ 2089  l s-ltr
+ 2090  ls -ltr
+ 2091  unzip test_db-master.zip
+ 2092  clear
+ 2093  cd test_db-master
+ 2094  clear
+ 2095  c
+ 2096  zh --version
+ 2097  zsh --version
+ 2098  ag
+ 2099  clear
+ 2100  aliases
+ 2101  alias
+ 2102  which-command
+ 2103  colored git help clone\n
+ 2104  cd ~
+ 2105  pwd
+ 2106  cd .oh-my-zsh
+ 2107  code .
+ 2108  ls -tlr
+ 2109  clear
+ 2110  open .
+ 2111  cd ..
+ 2112  code .
+ 2113  brew install autojump
+ 2114  l
+ 2115  j workspace
+ 2116  jo workspace
+ 2117  autojump --help
+ 2118  pwd
+ 2119  j dbs
+ 2120  pwd
+ 2121  cd workspace/playground
+ 2122  cd ~
+ 2123  j playground
+ 2124  ls -tlr
+ 2125  clear
+ 2126  pwd
+ 2127  j
+ 2128  j --helo
+ 2129  j --help
+ 2130  mcc
+ 2131  pwd
+ 2132  ls -ltr
+ 2133  cd ..
+ 2134  ls -ltr
+ 2135  cd investment
+ 2136  clear
+ 2137  ls -tlr
+ 2138  cd ..
+ 2139  ls -ltr
+ 2140  cd budget
+ 2141  clear
+ 2142  mcc
+ 2143  brew list autojump
+ 2144  brew uninstall autojump
+ 2145  brew list autojump
+ 2146  clear
+ 2147  cd Downloads
+ 2148  cd test_db-master
+ 2149  clear
+ 2150  ls -tlr
+ 2151  clear
+ 2152  code .
+ 2153  clear
+ 2154  ls -ltr
+ 2155  mysql
+ 2156  mysql -u root
+ 2157  sudo mysql -u root
+ 2158  which mysql
+ 2159  mysql
+ 2160  cd /usr/local
+ 2161  ls -ltr
+ 2162  cd bin
+ 2163  ls -ltr
+ 2164  cd ..
+ 2165  ls -ltr
+ 2166  cd mysql-8.0.37-macos14-arm64
+ 2167  ls -ltr
+ 2168  cd bin
+ 2169  sl -ltr
+ 2170  ls -ltr
+ 2171  clear
+ 2172  ./mysql -u root
+ 2173  ./mysql -u root -p Ganeshh12#
+ 2174  ./mysql -u root -pGaneshh12#
+ 2175  pwd
+ 2176  cd /usr/local/bin
+ 2177  ls -ltr
+ 2178  ln -s /usr/local/mysql-8.0.37-macos14-arm64/bin/mysql
+ 2179  sudo ln -s /usr/local/mysql-8.0.37-macos14-arm64/bin/mysql
+ 2180  ls -ltr
+ 2181  clear
+ 2182  ls -ltr
+ 2183  pwd
+ 2184  mysql
+ 2185  mysql -u root -pGaneshh12#
+ 2186  cd Downloads
+ 2187  clear
+ 2188  l s-ltr
+ 2189  ls -ltr
+ 2190  cd test_db-master
+ 2191  clear
+ 2192  mysql
+ 2193  mysql -u root -pGaneshh12#
+ 2194  mysql -t employee.sql
+ 2195  mysql --help
+ 2196  mysql -t employee.sql -uroot -pGaneshh12#
+ 2197  mysql -t < employee.sql
+ 2198  mysql -t < ./employee.sql
+ 2199  mysql -uroot -pGaneshh12# -t < employee.sql
+ 2200  mysql -uroot -pGaneshh12# -t < ./employee.sql
+ 2201  mysql < employees.sql
+ 2202  mysql -uroot -pGaneshh12# -t < ./employees.sql
+ 2203  mysql  -t < test_employees_md5.sql
+ 2204  mysql -uroot -pGaneshh12# -t < ./test_employees_md5.sql
+ 2205  gradle build
+ 2206  gradle :compileJava
+ 2207  clear
+ 2208  git st
+ 2209  clear
+ 2210  git st
+ 2211  git add .
+ 2212  clear
+ 2213  gradle compileJava
+ 2214  java -version
+ 2215  code .
+ 2216  idea .
+ 2217  clear
+ 2218  http localhost/investment
+ 2219  http localhost/investment/product/list
+ 2220  http localhost/investment/product/1
+ 2221  clear
+ 2222  http localhost/investment/product/1
+ 2223  http delte localhost/investment/product/1
+ 2224  http delete localhost/investment/product/1
+ 2225  clear
+ 2226  http localhost/investment/product/1
+ 2227  http localhost/investment/product/list
+ 2228  clear
+ 2229  pwd
+ 2230  cd Technical_Review_Packt
+ 2231  cd ..
+ 2232  ls -ltr
+ 2233  cd Downloads
+ 2234  cd test_db-master
+ 2235  clear
+ 2236  ls -tlr
+ 2237  mysql -uroot -pGaneshh12# -t < ./test_employees_md5.sql
+ 2238  clear
+ 2239  pwd
+ 2240  which mysql
+ 2241  cd /usr/local/mysql-8.0.37-macos14-arm64
+ 2242  ls -ltr
+ 2243  cd data
+ 2244  l
+ 2245  cd data
+ 2246  clear
+ 2247  ls -ltr
+ 2248  sudo cd data
+ 2249  pwd
+ 2250  ls -ltr
+ 2251  ls -ltr data
+ 2252  sudo ls -ltr data
+ 2253  open .
+ 2254  sudo open .
+ 2255  l
+ 2256  clear
+ 2257  pwd
+ 2258  ls -ltr
+ 2259  cd data
+ 2260  sudo ls -ltr data|grep empl
+ 2261  sudo ls -ltr data/employees
+ 2262  sudo ls -ltr data
+ 2263  git pull
+ 2264  git st
+ 2265  clear
+ 2266  git diff
+ 2267  git st
+ 2268  git stash list
+ 2269  git stash 
+ 2270  git pull
+ 2271  clear
+ 2272  git stash apply
+ 2273  git st
+ 2274  clear
+ 2275  git add .
+ 2276  git st
+ 2277  git commit -am "Commit local changes"
+ 2278  git push
+ 2279  clear
+ 2280  git st
+ 2281  git add .
+ 2282  git commit -am "Add POTD geeks"
+ 2283  git push
+ 2284  clear
+ 2285  ls -ltr
+ 2286  git pull
+ 2287  clear
+ 2288  git st
+ 2289  git add .
+ 2290  git commit "POTD geeks for geeks"
+ 2291  git commit -m "POTD geeks for geeks"
+ 2292  git push
+ 2293  git st
+ 2294  git co .
+ 2295  git st
+ 2296  git add .
+ 2297  git commit --amend
+ 2298  git push
+ 2299  git pull
+ 2300  git st
+ 2301  git branch
+ 2302  git co sample
+ 2303  git delete main
+ 2304  git branch -D main
+ 2305  git co main
+ 2306  git pull
+ 2307  git st
+ 2308  git add .
+ 2309  git commit -am "Add another solution"
+ 2310  git push
+ 2311  git st
+ 2312  git co .
+ 2313  clear
+ 2314  git co .
+ 2315  clear
+ 2316  git st 
+ 2317  git diff
+ 2318  git co .
+ 2319  clear
+ 2320  ls -ltr
+ 2321  ls -tlr
+ 2322  clear
+ 2323  pwd
+ 2324  sl -ltr
+ 2325  ls -ltr
+ 2326  clear
+ 2327  ls -ltr
+ 2328  open .
+ 2329  mkdir scripts
+ 2330  cd scripts
+ 2331  clear
+ 2332  ls -ltr
+ 2333  cat sample.txt
+ 2334  sed 's/unix/linux' sample.txt
+ 2335  sed 's/unix/linux/' sample.txt
+ 2336  sed 's/unix/linux/2' sample.txt
+ 2337  sed 's/unix/linux/g' sample.txt
+ 2338  sed 's/unix/linux/3g' sample.txt
+ 2339  sed 's/unix/linux/2g' sample.txt
+ 2340  sed 's/unix/linux/2' sample.txt
+ 2341  echo "Welcome To The Geek Stuff" | sed 's/\(\b[A-Z]\)/\(\1\)/g'
+ 2342  sed '3 s/unix/linux/' geekfile.txt
+ 2343  sed '3 s/unix/linux/' sample.txt
+ 2344  sed '4 s/unix/linux/' sample.txt
+ 2345  clear
+ 2346  cat sample.txt
+ 2347  sed 's/unix/linux/p' sample.txt
+ 2348  sed -n 's/unix/linux/p' sample.txt
+ 2349  sed '2d' sample.txt
+ 2350  sed '$d' sample.txt
+ 2351  vi databash.sh
+ 2352  clear
+ 2353  sh databash.sh
+ 2354  clear
+ 2355  ls -ltr
+ 2356  db_set 123456 '{"name":"London","attractions":["Big Ben","London Eye"]}'
+ 2357  sh -x databash.sh
+ 2358  more databash.sh
+ 2359  db_set () {\n        echo "$1,$2" >> database\n}
+ 2360  db_set 123456 '{"name":"London","attractions":["Big Ben","London Eye"]}'
+ 2361  ls -ltr
+ 2362  more databas
+ 2363  more database
+ 2364  db_get 123456
+ 2365  db_get () {\n        grep "^$1," database | sed -e "s/^$1,//" | tail -n 1\n}
+ 2366  clear
+ 2367  db_get 123456
+ 2368  ls -ltr
+ 2369  grep 123456 database
+ 2370  mv databash.sh storage.sh
+ 2371  clear
+ 2372  grep 123456 database
+ 2373  man sed
+ 2374  grep 123456 database
+ 2375  grep 123456 database| sed -e "s/123456,//"
+ 2376  grep 123456 database| sed -e "s/123456,//"|tail
+ 2377  grep 123456 database| sed -e "s/123456,//"|tail -n 
+ 2378  grep 123456 database| sed -e "s/123456,//"|tail -n  1
+ 2379  clear
+ 2380  java version
+ 2381  java -version
+ 2382  clear
+ 2383  git pull
+ 2384  brew update java
+ 2385  brew upgrade java
+ 2386  java -version
+ 2387  clear
+ 2388  brew upgrade
+ 2389  clear
+ 2390  ls -ltr
+ 2391  clear
+ 2392  c
+ 2393  cd ~
+ 2394  code .
+ 2395  clear
+ 2396  java -version
+ 2397  export JAVA_HOME=`/usr/libexec/java_home -v 19
+ 2398  export JAVA_HOME=`/usr/libexec/java_home -v 19"
+ 2399  export JAVA_HOME=`/usr/libexec/java_home -v 19`
+ 2400  java -v
+ 2401  java -version
+ 2402  java-19
+ 2403  more /usr/libexec/java_home 
+ 2404  cd /usr/libexec
+ 2405  ls -ltr
+ 2406  more java-19
+ 2407  ls -ltr
+ 2408  ls -ltr java*
+ 2409  l
+ 2410  pwd
+ 2411  more java-19
+ 2412  which java-19
+ 2413  cd /opt/homebrew/Cellar/openjdk
+ 2414  ls -ltr
+ 2415  cd ~
+ 2416  brew install java-17
+ 2417  java -version
+ 2418  clear
+ 2419  pwd
+ 2420  p
+ 2421  cd workspace
+ 2422  l
+ 2423  mkdir adapter
+ 2424  cd adapter
+ 2425  clear
+ 2426  ls -ltr
+ 2427  brew install openjdk@17
+ 2428  java-17
+ 2429  java -version
+ 2430  java-22
+ 2431  java -version
+ 2432  java-22
+ 2433  java-17
+ 2434  java-11
+ 2435  java-19
+ 2436  java -version
+ 2437  java-11
+ 2438  java -version
+ 2439  java-17
+ 2440  pwd
+ 2441  mv ~/Downloads/yfj.zip .
+ 2442  unzip yfj.zip
+ 2443  clear
+ 2444  rm yfj.zip
+ 2445  cd yfj
+ 2446  code .
+ 2447  gradle build
+ 2448  idea .
+ 2449  gradle build
+ 2450  java -version
+ 2451  java-17
+ 2452  clear
+ 2453  which java
+ 2454  java -version
+ 2455  which javac
+ 2456  cd /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+ 2457  l
+ 2458  cd Contents
+ 2459  l
+ 2460  cd Home
+ 2461  l
+ 2462  clear
+ 2463  pwd
+ 2464  git st
+ 2465  clear
+ 2466  cd workspace
+ 2467  l
+ 2468  cd adapter
+ 2469  rm -rf yfj
+ 2470  clear
+ 2471  ls -ltr
+ 2472  mv ~/Downloads/yfj.zip .
+ 2473  unzip yfj.zip
+ 2474  cd yfj
+ 2475  code .
+ 2476  git init
+ 2477  git .init
+ 2478  git init
+ 2479  clear
+ 2480  pwd
+ 2481  ls -ltr
+ 2482  clear
+ 2483  pwd
+ 2484  cd ..
+ 2485  cd yfj
+ 2486  ls -tlr
+ 2487  clear
+ 2488  git init
+ 2489  git st
+ 2490  git commit -am "Initialise repository"
+ 2491  clear
+ 2492  git st
+ 2493  git add .
+ 2494  git commit -am "Initialise repository"
+ 2495  clear
+ 2496  git st
+ 2497  ckear
+ 2498  clear
+ 2499  gst
+ 2500  clear
+ 2501  which gst
+ 2502  gst
+ 2503  gp
+ 2504  git pull
+ 2505  clear
+ 2506  pwd
+ 2507  cd ..
+ 2508  ls -ltr
+ 2509  brew install node
+ 2510  clear
+ 2511  node -version
+ 2512  node --version
+ 2513  clear
+ 2514  pwd
+ 2515  mkdir yfj-fe
+ 2516  clear
+ 2517  code .
+ 2518  cd yfj-fe
+ 2519  code .
+ 2520  clear
+ 2521  npm create vite@latest
+ 2522  cd ..
+ 2523  ls -ltr
+ 2524  cd workspace/adapter
+ 2525  ls -tlr
+ 2526  mv yfj-fe/yfj-fe/* yfj-fe
+ 2527  cd yfj-fe
+ 2528  ls -ltr
+ 2529  cd yfj-fe
+ 2530  ls -ltr
+ 2531  cd ..
+ 2532  rmdir yfj-fe
+ 2533  clear
+ 2534  ls -ltr yfj-fe/*
+ 2535  ls -ltra yfj-fe/*
+ 2536  rm yfj-fe
+ 2537  rmdir yfj-fe
+ 2538  pwd
+ 2539  cd ..
+ 2540  ls -ltr
+ 2541  mv yfj.zip ~/Downloads
+ 2542  rm -rf yfj-fe
+ 2543  clear
+ 2544  npm create vite@latest
+ 2545  cd yfj-fe
+ 2546  clear
+ 2547  code .
+ 2548  clear
+ 2549  npm install
+ 2550  clear
+ 2551  npm run dev
+ 2552  pwd
+ 2553  clear
+ 2554  git st
+ 2555  git init
+ 2556  git add.
+ 2557  git add .
+ 2558  git commit -am "Initialising the repo"
+ 2559  clear
+ 2560  git st
+ 2561  git co .
+ 2562  git st
+ 2563  clear
+ 2564  git add .
+ 2565  git commit -am "Simple component"
+ 2566  clear
+ 2567  git st
+ 2568  clear
+ 2569  git log
+ 2570  git log --oneline
+ 2571  git st
+ 2572  clear
+ 2573  npm install antd --save
+ 2574  git st
+ 2575  git diff
+ 2576  clear
+ 2577  git diff package.json
+ 2578  clear
+ 2579  git st
+ 2580  git add .
+ 2581  git commit -am "Implement component and styles"
+ 2582  cllear
+ 2583  clear
+ 2584  git st
+ 2585  clear
+ 2586  git diff
+ 2587  git commit -am "Implement simple controller"
+ 2588  clear
+ 2589  java -version
+ 2590  clear
+ 2591  gradle compile
+ 2592  clear
+ 2593  git st
+ 2594  git add .
+ 2595  git commit -am "implement jwt rest auth implementation"
+ 2596  clear
+ 2597  git push
+ 2598  clear
+ 2599  cd workspace
+ 2600  ls -ltr
+ 2601  git clone https://github.com/spring-cloud/spring-cloud-gateway
+ 2602  clear
+ 2603  pwd
+ 2604  cd spring-cloud-gateway
+ 2605  clear
+ 2606  d
+ 2607  idea .
+ 2608  mvn clean compile
+ 2609  clear
+ 2610  cd spring-cloud-gateway-sample
+ 2611  clear
+ 2612  mvn clean compile
+ 2613  mvn spring-boot:run
+ 2614  java -version
+ 2615  cd workspace
+ 2616  ls -ltr
+ 2617  git clone https://github.com/spring-guides/gs-gateway.git
+ 2618  cd gs-gateway
+ 2619  git pull
+ 2620  clear
+ 2621  git st
+ 2622  idea .
+ 2623  mvn clean compile
+ 2624  gradle compileJava
+ 2625  ls -ltr
+ 2626  clear
+ 2627  git st
+ 2628  cd initial
+ 2629  clear
+ 2630  git st
+ 2631  clear
+ 2632  idea .
+ 2633  pwd
+ 2634  cd workspace
+ 2635  cd gs-
+ 2636  cd gs-gateway
+ 2637  clear
+ 2638  git pull
+ 2639  c
+ 2640  l
+ 2641  gst
+ 2642  cd complete
+ 2643  git st
+ 2644  clear
+ 2645  git diff
+ 2646  git diff --name-only
+ 2647  idea .
+ 2648  git st
+ 2649  git diff .route(p -> p\n                        .host("*.circuitbreaker.com")\n                        .filters(f -> f.circuitBreaker(config -> config\n                                .setName("mycmd")\n                                .setFallbackUri("forward:/fallback")))\n                        .uri("http://localhost:8082"))
+ 2650  git st
+ 2651  git diff src/main/java/gateway/Application.java
+ 2652  git co src/main/java/gateway/Application.java
+ 2653  git st
+ 2654  clear
+ 2655  mvn clean compile
+ 2656  gradle build
+ 2657  gradle dependencies
+ 2658  gradle dependencies > dependencies.tx
+ 2659  git st
+ 2660  gradle build
+ 2661  gradle dependencies
+ 2662  gradle dependencies > dependencies.txt
+ 2663  gradle dependencies > dependencies_updated.txt
+ 2664  gradle build
+ 2665  git st
+ 2666  git pull
+ 2667  ckear
+ 2668  git st
+ 2669  clear
+ 2670  pwd
+ 2671  cd ..
+ 2672  pwd
+ 2673  cd ..
+ 2674  ls -ltr
+ 2675  pwd
+ 2676  clear
+ 2677  pwd
+ 2678  cd ..
+ 2679  ls -tlr
+ 2680  pwd
+ 2681  ls -tlr
+ 2682  clear
+ 2683  ls -ltr
+ 2684  c dwo
+ 2685  cd workspace
+ 2686  git clone https://github.com/eugenp/tutorials/tree/master/spring-cloud-modules/spring-cloud-openfeign-2
+ 2687  git clone https://github.com/eugenp/tutorials
+ 2688  cd tutorials
+ 2689  l
+ 2690  cd spring-cloud-modules
+ 2691  clear
+ 2692  ls -tlr
+ 2693  cd spring-cloud-openfeign-2
+ 2694  clear
+ 2695  idea .
+ 2696  git st
+ 2697  git add .
+ 2698  git commit -m "Implement default feign client"
+ 2699  clear
+ 2700  git st
+ 2701  clear
+ 2702  git st
+ 2703  clear
+ 2704  git add .
+ 2705  git commit -am "Implement mock controller"
+ 2706  clear
+ 2707  git st
+ 2708  git diff
+ 2709  git commit --ammend "Implement mock controller"
+ 2710  git add .
+ 2711  git commit --amend
+ 2712  clear
+ 2713  git st
+ 2714  clear
+ 2715  git st
+ 2716  clear
+ 2717  mvn clean compile
+ 2718  git st
+ 2719  git add.
+ 2720  git add .
+ 2721  git commit -am "Implement header details in the response"
+ 2722  clear
+ 2723  git st
+ 2724  clear
+ 2725  git st
+ 2726  git add .
+ 2727  clear
+ 2728  git st
+ 2729  clear
+ 2730  git commit -am "Implement mock api functionalities"
+ 2731  clear
+ 2732  git st
+ 2733  clear
+ 2734  git st
+ 2735  clear
+ 2736  git add .
+ 2737  git commit -am "Implement mock gateway"
+ 2738  clear
+ 2739  git st
+ 2740  clear
+ 2741  git st
+ 2742  git add.
+ 2743  git add .
+ 2744  clear
+ 2745  git commit -am "Implement yfj mocker with full functionality"
+ 2746  clear
+ 2747  git st
+ 2748  clear
+ 2749  pwd
+ 2750  npm create vite@latest
+ 2751  cd ui
+ 2752  clear
+ 2753  git st
+ 2754  clear
+ 2755  cd ui
+ 2756  npm install
+ 2757  clear
+ 2758  npm start
+ 2759  npm run
+ 2760  clear
+ 2761  npm install
+ 2762  npm run dev
+ 2763  clear
+ 2764  npm start
+ 2765  npm run dev
+ 2766  gradle bootRun
+ 2767  cd ..
+ 2768  gradle bootRun
+ 2769  gradle installFrontend
+ 2770  gradlew installFrontend
+ 2771  gradle installFrontend
+ 2772  gradle InstallFrontendTask
+ 2773  gradle build
+ 2774  clear
+ 2775  git st
+ 2776  clear
+ 2777  git6 st
+ 2778  git st
+ 2779  git co build.gradle*
+ 2780  git st
+ 2781  clear
+ 2782  gradle build
+ 2783  git st
+ 2784  git co build.gradle
+ 2785  clear
+ 2786  gradle build
+ 2787  gradle bootRun
+ 2788  clear
+ 2789  git st
+ 2790  git co build.gradle
+ 2791  clear
+ 2792  gradle build
+ 2793  node -v
+ 2794  gradle bootRun
+ 2795  cd workspace
+ 2796  ls -tlr
+ 2797  git clone https://github.com/nnishad/reactive-springboot-with-reactjs-app
+ 2798  cd reactive-springboot-with-reactjs-app
+ 2799  clear
+ 2800  idea .
+ 2801  gradle bootRun
+ 2802  gradle build
+ 2803  git st
+ 2804  clear
+ 2805  git st
+ 2806  git co build.gradle
+ 2807  git st
+ 2808  git co settings.gradle
+ 2809  git st
+ 2810  git add src/main/java/com/dbs/yfj/config/filter/HashingFilter.java
+ 2811  git diff src/main/java/com/dbs/yfj/config/security/SecurityConfiguration.java
+ 2812  git co src/main/java/com/dbs/yfj/config/security/SecurityConfiguration.java
+ 2813  git st
+ 2814  clear
+ 2815  git st
+ 2816  git commit -am "Exclude filter for non mock urls"
+ 2817  git st
+ 2818  cd ui
+ 2819  clear
+ 2820  npm run dev
+ 2821  git st
+ 2822  clear
+ 2823  git add .
+ 2824  git st
+ 2825  ckear
+ 2826  clear 
+ 2827  git commit -m "Initialize FE repo"
+ 2828  git st
+ 2829  clear
+ 2830  npm install axios
+ 2831  git st
+ 2832  clear
+ 2833  git diff
+ 2834  npm run dev
+ 2835  √
+ 2836  npm install antd
+ 2837  npm run dev
+ 2838  exit
+ 2839  git st
+ 2840  git add .
+ 2841  git commit -m "Implement gateway for mockstar"
+ 2842  clear
+ 2843  git push
+ 2844  cd workspace
+ 2845  mkdir mockstar
+ 2846  cd mockstar
+ 2847  mv ~/Downloads/mockstar-gateway.zip .
+ 2848  unzip mockstar-gateway.zip
+ 2849  clear
+ 2850  rm mockstar-gateway.zip
+ 2851  cd mockstar-gateway
+ 2852  idea .
+ 2853  git st
+ 2854  git remote add origin git@github.com:mahiznan/mockstar-gateway.git
+ 2855  git init
+ 2856  git remote add origin git@github.com:mahiznan/mockstar-gateway.git
+ 2857  git branch -M main
+ 2858  git st
+ 2859  ckear
+ 2860  git commit -am "Initialize repository"
+ 2861  git st
+ 2862  git add .
+ 2863  git commit -am "Initialize repository"
+ 2864  clear
+ 2865  git push -u origin main
+ 2866  cd ..
+ 2867  mv ~/Downloads/mockstar-api.zip .
+ 2868  unzip mockstar-api.zip
+ 2869  rm -rf mockstar-api
+ 2870  clear
+ 2871  unzip mockstar-api.zip
+ 2872  rm mockstar-api.zip
+ 2873  cd mockstar-api
+ 2874  clear
+ 2875  idea .
+ 2876  git st
+ 2877  git init
+ 2878  git add .
+ 2879  git commit -m "Initialise repository"
+ 2880  clear
+ 2881  git remote add origin git@github.com:mahiznan/mockstar-api.git
+ 2882  git branch -M main
+ 2883  git push -u origin main
+ 2884  exit
+ 2885  git st
+ 2886  clear
+ 2887  gradle dependecies
+ 2888  gradle dependencies
+ 2889  clear
+ 2890  gradle dependencies > dependencies.txt
+ 2891  gradle publish
+ 2892  clear
+ 2893  git st
+ 2894  clear
+ 2895  git diff
+ 2896  git co .
+ 2897  clear
+ 2898  git pull
+ 2899  clear
+ 2900  mvn clean install
+ 2901  more users.avro
+ 2902  code .
+ 2903  pwd
+ 2904  cd workspace
+ 2905  ls -ltr
+ 2906  clear
+ 2907  git clone https://github.com/spring-guides/tut-spring-boot-oauth2
+ 2908  clear
+ 2909  cd tut
+ 2910  cd tut-spring-boot-oauth2
+ 2911  clear
+ 2912  ls -ltr
+ 2913  idea .
+ 2914  cd simple
+ 2915  mvn spring-boot:run
+ 2916  clear
+ 2917  cd ../two-providers
+ 2918  clear
+ 2919  mvn spring-boot:run
+ 2920  clear
+ 2921  npm run dev
+ 2922  clear
+ 2923  npm install typescript
+ 2924  clear
+ 2925  npm run dev
+ 2926  clear
+ 2927  npm run dev
+ 2928  clear
+ 2929  ls -tlr
+ 2930  cd workspace
+ 2931  ls -ltr
+ 2932  clear
+ 2933  git clone https://github.com/spring-projects/spring-webflow-samples
+ 2934  clear
+ 2935  cd spring-webflow-samples
+ 2936  clear
+ 2937  idea .
+ 2938  clear
+ 2939  pwd
+ 2940  cd booking-mvc
+ 2941  clear
+ 2942  ls -ltr
+ 2943  mvn jetty:run
+ 2944  gpg
+ 2945  brew install gnupg
+ 2946  clear
+ 2947  cd ..
+ 2948  pwd
+ 2949  cd ..
+ 2950  ls -ltr
+ 2951  mkdir pgp
+ 2952  clear
+ 2953  cd p
+ 2954  cd pgp
+ 2955  ls -ltr
+ 2956  gpg --full-generate-key\n
+ 2957  clear
+ 2958  ls -ltr
+ 2959  cd /Users/rajeshkumarm/.gnupg/
+ 2960  ls -ltr
+ 2961  more S.gpg-agent.ssh
+ 2962  gpg --list-keys
+ 2963  gpg --armor --output public_key.asc --export 55F598B606F6F96F6363CD20ACEBBFA77B012292
+ 2964  ls -ltr
+ 2965  more public_key.asc
+ 2966  clear
+ 2967  l s-ltr
+ 2968  ls -ltr
+ 2969  more private-keys-v1.d
+ 2970  cd private-keys-v1.d
+ 2971  ls -ltr
+ 2972  more ./E9B628F96C55015ADEC525536B98E2714A4D0488.key
+ 2973  clear
+ 2974  ls -ltr
+ 2975  cd ..
+ 2976  ls -ltr
+ 2977  gpg --list-keys
+ 2978  gpg --armor --output private_key.asc --export-secret-keys 55F598B606F6F96F6363CD20ACEBBFA77B012292
+ 2979  ls -ltr
+ 2980  more private_key.asc
+ 2981  git st
+ 2982  clear
+ 2983  rm dependencies.txt
+ 2984  clear
+ 2985  git pull
+ 2986  mvn clean compile
+ 2987  clear
+ 2988  mvn clean compile
+ 2989  git st
+ 2990  git pull
+ 2991  clear
+ 2992  gradle compileJava
+ 2993  mvn clean compile
+ 2994  code .
+ 2995  npm run dev
+ 2996  pwd
+ 2997  cd workspace
+ 2998  git clone https://github.com/pgpainless/pgpainless/tree/main/pgpainless-sop
+ 2999  git clone https://github.com/pgpainless/pgpainless
+ 3000  cd pgp
+ 3001  ls -ltr
+ 3002  clear
+ 3003  pwd
+ 3004  cd ../pgpainless
+ 3005  clear
+ 3006  ls -tlr
+ 3007  idea .
+ 3008  clear
+ 3009  git pull
+ 3010  clear
+ 3011  pwd
+ 3012  cd src/main/resources
+ 3013  pwd
+ 3014  git remote add origin git@github.com:mahiznan/pgp.git
+ 3015  git branch -M main
+ 3016  git push -u origin main
+ 3017  pwd
+ 3018  ls -ltr
+ 3019  pwd
+ 3020  cd ..
+ 3021  pwd
+ 3022  cd ..
+ 3023  ls -ltr
+ 3024  clear
+ 3025  pwd
+ 3026  cd ..
+ 3027  ls -ltr
+ 3028  git init
+ 3029  clear
+ 3030  git remote add origin git@github.com:mahiznan/pgp.git
+ 3031  git push -u origin main
+ 3032  clear
+ 3033  clear 
+ 3034  git branch -M main
+ 3035  git push -u origin main
+ 3036  clear
+ 3037  cd ..
+ 3038  clear
+ 3039  cd workspace
+ 3040  mv pgp pgp1
+ 3041  git clone https://github.com/mahiznan/pgp
+ 3042  cd pgp
+ 3043  ls -tlr
+ 3044  mv ../pgp1/src .
+ 3045  mv ../pgp1/pom.xml .
+ 3046  clear
+ 3047  git st
+ 3048  clear
+ 3049  mvn clean compile
+ 3050  mvn test
+ 3051  clear
+ 3052  git st
+ 3053  git add .
+ 3054  git commit -am "Initialise repository"
+ 3055  clear
+ 3056  git push
+ 3057  cd ..
+ 3058  rm -rf pgp1
+ 3059  clear
+ 3060  ls -ltr
+ 3061  clear
+ 3062  http :8080
+ 3063  brew update
+ 3064  brew upgrade
+ 3065  clear
+ 3066  pwd
+ 3067  ls -tlr
+ 3068  clear
+ 3069  ls -tlr
+ 3070  clear
+ 3071  pwd
+ 3072  ls -tlr
+ 3073  c;ear
+ 3074  clear
+ 3075  git clone https://github.com/Kehrlann/spring-security-the-good-parts
+ 3076  cd spring-security-the-good-parts
+ 3077  idea .
+ 3078  gradle compileJava
+ 3079  http :8080
+ 3080  http :8080 x-forbidden:true
+ 3081  clear
+ 3082  http :8080 x-robot-password:true
+ 3083  http :8080 x-robot-password:beeb-boop
+ 3084  http :8080 x-robot-password:beep-boop
+ 3085  http :8080/private x-robot-password:beep-boop
+ 3086  http :8080/private --auth
+ 3087  http :8080/private --auth user:password
+ 3088  clear
+ 3089  http :8080/private --auth user:password
+ 3090  http :8080/private --auth daniel:barfoo
+ 3091  clear
+ 3092  ls -tlr
+ 3093  clear
+ 3094  ls -ltr
+ 3095  cd workspace
+ 3096  ls -ltr
+ 3097  cd start.spring.io
+ 3098  clear
+ 3099  git pull
+ 3100  clear
+ 3101  idea .
+ 3102  java -version
+ 3103  git pull
+ 3104  clear
+ 3105  mvn spring-boot:run
+ 3106  mvn clean instal
+ 3107  mvn clean install
+ 3108  clear
+ 3109  mvn clean
+ 3110  mvn clean compile
+ 3111  mvn spring-boot:run
+ 3112  gp
+ 3113  git pull
+ 3114  clear
+ 3115  cd ../start-client
+ 3116  clear
+ 3117  npm build
+ 3118  npm run build
+ 3119  yarn run test
+ 3120  npm install yarn
+ 3121  npm start
+ 3122  npm run start
+ 3123  clear
+ 3124  rm -rf .cache node_modules
+ 3125  cd ..
+ 3126  ./mvnw clean install
+ 3127  ls -ltr
+ 3128  brew instll yarn
+ 3129  brew install yarn
+ 3130  brew update
+ 3131  brew upgrade
+ 3132  ./mvnw clean install
+ 3133  yarn
+ 3134  rm yarn.lock
+ 3135  cd start-client
+ 3136  ls -la
+ 3137  rm -rf yarn.lock
+ 3138  rm -rf package-lock.json
+ 3139  rm -rf .cache node_modules
+ 3140  pwd
+ 3141  cd ..
+ 3142  ./mvnw clean install
+ 3143  crc version
+ 3144  crc setup
+ 3145  clear
+ 3146  crc start
+ 3147  docker
+ 3148  docker run -dp 80:80 ngnix
+ 3149  clear
+ 3150  ls -ltr
+ 3151  clear
+ 3152  ls -ltr
+ 3153  clear
+ 3154  ls -ltr
+ 3155  crc start
+ 3156  eval $(crc oc-env)
+ 3157  oc login -u developer https://api.crc.testing:6443
+ 3158  docker -v
+ 3159  docker run -dp 80:80 ngnix
+ 3160  docker login
+ 3161  docker run -dp 80:80 ngnix
+ 3162  cat /etc/hosts
+ 3163  clear
+ 3164  cat /etc/hosts
+ 3165  docker -dp run 80:80 ngnix
+ 3166  docker run -dp 80:80 ngnix
+ 3167  docker start
+ 3168  docker run -dp 80:80 ngnix
+ 3169  crc console
+ 3170  clear
+ 3171  crc status
+ 3172  crc start
+ 3173  crc status
+ 3174  crc stop
+ 3175  clear
+ 3176  crc start
+ 3177  oc login -u developer https://api.crc.testing:6443
+ 3178  clear
+ 3179  oc
+ 3180  clear
+ 3181  oc
+ 3182  clear
+ 3183  oc
+ 3184  oc login -u developer https://api.crc.testing:6443
+ 3185  echo $PATH
+ 3186  code
+ 3187  ls -tlr
+ 3188  cd scripts
+ 3189  ls -ltr
+ 3190  clear
+ 3191  more storage.sh
+ 3192  ls -ltr
+ 3193  pwd
+ 3194  cd openshift-client-mac-4.17.1
+ 3195  pwd
+ 3196  oc login --help
+ 3197  oc version
+ 3198  kubectl version
+ 3199  clear
+ 3200  oc login -u developer https://api.crc.testing:6443
+ 3201  oc get nodes
+ 3202  oc login -u kubeadmin https://api.crc.testing:6443
+ 3203  oc get nodes
+ 3204  oc get nodes -o wide
+ 3205  oc get nodes
+ 3206  oc describe node crc
+ 3207  clear
+ 3208  oc describe node crc
+ 3209  oc get nodes
+ 3210  kubectl get nodes
+ 3211  clear
+ 3212  oc --help
+ 3213  clear
+ 3214  pwd
+ 3215  cd ~
+ 3216  cd workspace
+ 3217  ls -ltr
+ 3218  mkdir openshift
+ 3219  cd openshift
+ 3220  clear
+ 3221  mkdir quickstart-demo & cd quickstart-demo
+ 3222  cd quickstart-demo
+ 3223  ls -ltr
+ 3224  odo login -u developer https://api.crc.testing:6443
+ 3225  odo odo login -u developer https://api.crc.testing:6443
+ 3226  odo
+ 3227  cd scripts
+ 3228  ls -ltr
+ 3229  ./odo
+ 3230  echo $PATH
+ 3231  cd ~
+ 3232  code .
+ 3233  odo help
+ 3234  cd workspace/openshift
+ 3235  ls -ltr
+ 3236  cd quickstart-demo
+ 3237  clear
+ 3238  odo login -u developer https://api.crc.testing:6443
+ 3239  odo create project odo-dev\n\n
+ 3240  ls -ltr
+ 3241  clear
+ 3242  odo init
+ 3243  ls -ltr
+ 3244  clear
+ 3245  ls -tlr
+ 3246  odo dev
+ 3247  claer
+ 3248  clear
+ 3249  cd ~
+ 3250  oc get nodes
+ 3251  oc login -u kubeadmin https://localhost:6443
+ 3252  oc get nodes
+ 3253  oc get pods
+ 3254  clear
+ 3255  cd workspace/openshift
+ 3256  ls -lr
+ 3257  cd quickstart-demo
+ 3258  ls -ltr
+ 3259  code .
+ 3260  clear
+ 3261  odo dev
+ 3262  clear
+ 3263  oc create deployment ngnix --image=ngnix
+ 3264  oc get pods
+ 3265  oc get deployment
+ 3266  oc expose deployment ngnix --port=80 --target-port=80 --type=LoadBalancer
+ 3267  oc get service
+ 3268  oc get service ngnix
+ 3269  oc get service ngnix -o jsonpath = '{.status.loadBalancer.ingress[0].ip}'
+ 3270  oc get service ngnix
+ 3271  ocp get nodes
+ 3272  ocp get node
+ 3273  clear
+ 3274  oc get nodes
+ 3275  oc get pods
+ 3276  oc get services
+ 3277  oc get routes
+ 3278  oc get route
+ 3279  oc get --help
+ 3280  clear
+ 3281  oc get rc
+ 3282  oc get services
+ 3283  pwd
+ 3284  oc get pod
+ 3285  oc new-project ngnix-project
+ 3286  cd ..
+ 3287  ls -ltr
+ 3288  mkdir ngnix
+ 3289  clear
+ 3290  code .
+ 3291  cd ngnix
+ 3292  code .
+ 3293  kubectl apply -f deploy.yaml
+ 3294  kubectl apply -f service.yaml
+ 3295  kubectl apply -f ingress.yaml
+ 3296  oc get pods
+ 3297  oc get pods -n default
+ 3298  oc get services -n default\n
+ 3299  oc get ingress -n default\n
+ 3300  oc get svc
+ 3301  oc get routes
+ 3302  oc get node
+ 3303  oc get nodes
+ 3304  oc get services
+ 3305  oc get service
+ 3306  clear
+ 3307  oc get service -n default
+ 3308  oc expose service ngnix 
+ 3309  oc expose service ngnix -n default 
+ 3310  oc expose service -n default 
+ 3311  oc expose service -n default ngnix
+ 3312  oc get services
+ 3313  oc get services -n default
+ 3314  oc expose services -n default 
+ 3315  oc expose services -n default ngnix
+ 3316  oc expose services -n default 
+ 3317  oc get services -n default
+ 3318  oc get deployment
+ 3319  oc get deployments -n default
+ 3320  oc expose services -n default ngnix-deployment
+ 3321  oc expose services -n default ngnix-service
+ 3322  oc get ingress -n default\n
+ 3323  kubectl apply -f ingress.yaml
+ 3324  kubectl get ingress -n default
+ 3325  oc get services
+ 3326  clear
+ 3327  oc get services -n default
+ 3328  oc get ingress -n default
+ 3329  kubectl apply -f helm-repo.yaml
+ 3330  clear
+ 3331  oc new-project apache
+ 3332  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 3333  helm --help
+ 3334  xattr -cr ~/scripts/helm
+ 3335  helm --help
+ 3336  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 3337  clear
+ 3338  helm install apache bitnami/apache -n apache
+ 3339  kubectl get svc --namespace apache -w apache **
+ 3340  export SERVICE_IP=$(kubectl get svc --namespace apache apache --template "{{ range (index .status.loadBalancer.ingress 0) }}{{ . }}{{ end }}")
+ 3341  kubectl get svc --namespace apache -w apache **
+ 3342  export SERVICE_IP=$(kubectl get svc --namespace apache --template "{{ range (index .status.loadBalancer.ingress 0) }}{{ . }}{{ end }}")
+ 3343  clear
+ 3344  oc get pods
+ 3345  oc get svc
+ 3346  kubectl get svc --namespace apache -w apache **
+ 3347  oc get ingress -n default
+ 3348  oc get ingress -n apache
+ 3349  oc get pods
+ 3350  oc get svc
+ 3351  oc get pods
+ 3352  kubectl apply -f apache-service.yaml
+ 3353  git pul
+ 3354  git pull
+ 3355  clear
+ 3356  crc status
+ 3357  crc start
+ 3358  crc status
+ 3359  crc stop
+ 3360  crc start
+ 3361  docker -v
+ 3362  clear
+ 3363  crc status
+ 3364  crc delete
+ 3365  crc status
+ 3366  crc start
+ 3367  cd workspace
+ 3368  ls -ltr
+ 3369  cd docker
+ 3370  ls -ltr
+ 3371  clear
+ 3372  ls -tlr
+ 3373  mkdir clear
+ 3374  ls -ltr
+ 3375  clear
+ 3376  l
+ 3377  rmdir clear
+ 3378  l
+ 3379  mkdir docker-demo
+ 3380  cd docker-demo
+ 3381  code .
+ 3382  docker -version
+ 3383  docker version
+ 3384  docker --version
+ 3385  docker build -t sampleapp:v1 
+ 3386  docker build -t sampleapp:v1 .
+ 3387  clear
+ 3388  docker images
+ 3389  docker rmi e6ab906d3b01
+ 3390  docker images
+ 3391  docker rmi 373341b1a134
+ 3392  docker containers
+ 3393  docker container
+ 3394  docker container list
+ 3395  clear
+ 3396  docker images
+ 3397  docker run -P 8080:80 sampleapp:v1
+ 3398  docker run -p 8080:80 sampleapp:v1
+ 3399  clear
+ 3400  crc status
+ 3401  crc start
+ 3402  clear
+ 3403  ls -tlr
+ 3404  clear
+ 3405  ls -ltr
+ 3406  clear
+ 3407  ls -tlr
+ 3408  cd /var
+ 3409  ls -tlr
+ 3410  cd lib
+ 3411  ls -ltr
+ 3412  clear
+ 3413  more var/lib/kubelet/config.jso
+ 3414  sudo cat var/lib/kubelet/config.jso
+ 3415  cd ~/Downloads
+ 3416  ls -ltr
+ 3417  ls -ltr *.json
+ 3418  crc console --credentials
+ 3419  oc login -u kubeadmin -p DxXvF-FRGUP-qJJcJ-Ux4ym https://api.crc.testing:6443'
+ 3420  oc login -u kubeadmin -p DxXvF-FRGUP-qJJcJ-Ux4ym https://api.crc.testing:6443
+ 3421  mkdir /var/lib/kubelet
+ 3422  sudo mkdir /var/lib/kubelet
+ 3423  cd /var/lib/kubelet
+ 3424  mv ~/Downloads/config.json .
+ 3425  sudo -
+ 3426  crc stop
+ 3427  crc start
+ 3428  sudo mv ~/Downloads/config.json /var/lib/kubelet
+ 3429  pwd
+ 3430  cd ..
+ 3431  git clone https://github.com/developeremail102/sasphere
+ 3432  clear
+ 3433  idea .
+ 3434  cd sasphere
+ 3435  idea .
+ 3436  mvn clean compile
+ 3437  clear
+ 3438  mvn clean package
+ 3439  docker build -t sasphere
+ 3440  docker build -t sasphere .
+ 3441  docker images
+ 3442  docker run -p 80:8080 sasphere
+ 3443  docker run -p 81:8080 sasphere
+ 3444  clear
+ 3445  crc stop
+ 3446  crc start
+ 3447  docker images
+ 3448  $ docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=Ganeshh12# -d mysql\n
+ 3449  docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=Ganeshh12# -d mysql
+ 3450  docker ps
+ 3451  $ docker exec -it test-mysql bash
+ 3452  docker exec -it test-mysql bash
+ 3453  docker stop test-mysql
+ 3454  clear
+ 3455  docker run -d --name sasphere-mysql -e MYSQL_ROOT_PASSWORD=Ganeshh12# -p 3307:3306 mysql
+ 3456  docker ps
+ 3457  docker port sasphere-mysql
+ 3458  mvn clean package
+ 3459  docker build
+ 3460  docker build .
+ 3461  docker images
+ 3462  docker run -p 81:8080 sasphere
+ 3463  docker ps
+ 3464  docker inspect sasphere-mysql
+ 3465  mvn clean package
+ 3466  docker build .
+ 3467  docker run -p 81:8080 sasphere
+ 3468  mvn clean
+ 3469  mvn clean package
+ 3470  docker build .
+ 3471  docker run -p 81:8080 sasphere
+ 3472  cd ~
+ 3473  cd softwares
+ 3474  ls -tlr
+ 3475  mkdir tomcat
+ 3476  mv ~/Downloads/apache-tomcat-10.1.31-deployer.tar.gz tomcat
+ 3477  cd tomcat
+ 3478  clear
+ 3479  ls -ltr
+ 3480  tar -xvf apache-tomcat-10.1.31-deployer.tar.gz
+ 3481  l
+ 3482  cd apache-tomcat-10.1.31-deployer
+ 3483  ls -ltr
+ 3484  clear
+ 3485  ls -ltr
+ 3486  cd lib
+ 3487  l
+ 3488  clear
+ 3489  pwd
+ 3490  cd ..
+ 3491  ls -ltr
+ 3492  cd images
+ 3493  ls -ltr
+ 3494  clear
+ 3495  pwd
+ 3496  cd ..
+ 3497  ls -ltr
+ 3498  pwd
+ 3499  cd ..
+ 3500  ls -ltr
+ 3501  mv ~/Downloads/apache-tomcat-10.1.31-embed.tar.gz .
+ 3502  ls -ltr
+ 3503  tar -xvf apache-tomcat-10.1.31-embed.tar.gz
+ 3504  cd apache-tomcat-10.1.31-embed
+ 3505  l
+ 3506  clear
+ 3507  cd ..
+ 3508  rm -rf *
+ 3509  clear
+ 3510  ls -tlr
+ 3511  mv ~/Downloads/apache-tomcat-10.1.31.tar.gz .
+ 3512  tar -xvf apache-tomcat-10.1.31.tar.gz
+ 3513  cd apache-tomcat-10.1.31
+ 3514  ls -ltr
+ 3515  clear
+ 3516  ls -tlr
+ 3517  cd webapps
+ 3518  ls -tlr
+ 3519  cd ..
+ 3520  ls -ltr
+ 3521  cd bin
+ 3522  ls -ltr
+ 3523  ./startup.sh
+ 3524  docker ps
+ 3525  docker stop 7d66307cac70
+ 3526  docker ps
+ 3527  docker stop befd94ca1669
+ 3528  docker ps
+ 3529  docker stop 92488f6146ba
+ 3530  docker ps
+ 3531  docker stop d0327b7dbac6
+ 3532  clear
+ 3533  docker ps
+ 3534  clear
+ 3535  ls -tlr
+ 3536  ./startup.sh
+ 3537  clear
+ 3538  ls -ltr
+ 3539  ./shutdown.sh
+ 3540  cd ..
+ 3541  clear
+ 3542  l s-ltr
+ 3543  ls -tlr
+ 3544  ls -ltr
+ 3545  cd conf
+ 3546  ls -ltr
+ 3547  more web.xml
+ 3548  ls -tlr
+ 3549  more server.xml
+ 3550  clear
+ 3551  cd ..
+ 3552  ls -ltr
+ 3553  ./bin/startup.sh
+ 3554  bin/shutdown.sh
+ 3555  mv ~/workspace/sasphere/service/target/service-1.0-SNAPSHOT.war webapps/service.war
+ 3556  ./bin/startup.sh
+ 3557  tail -f logs/catalina.out
+ 3558  mvn clean package
+ 3559  clear
+ 3560  ./bin/shutdown.sh
+ 3561  ./bin/startup.sh
+ 3562  tail -f logs/catalina.out
+ 3563  exit
+ 3564  clear
+ 3565  ls -ltr
+ 3566  docker -version
+ 3567  docker --version
+ 3568  clear
+ 3569  brew upgrade
+ 3570  clear
+ 3571  brew upgrade
+ 3572  brew --verion
+ 3573  brew -version
+ 3574  brew --help
+ 3575  brew update
+ 3576  clear
+ 3577  ls -tlr
+ 3578  docker build .
+ 3579  docker images
+ 3580  docker -p 80:80 run .
+ 3581  docker run -p 80:80 .
+ 3582  docker -p 80:80 run .
+ 3583  clear
+ 3584  docker build .
+ 3585  docker run .
+ 3586  docker run --name docker-nginx -p 80:80 nginx
+ 3587  docker run -p 80:80 ngnix
+ 3588  clear
+ 3589  docker build -t rajesh .
+ 3590  docker images
+ 3591  docker run -p 80:80 rajesh
+ 3592  clear
+ 3593  docker build -t rajesh .
+ 3594  docker run -p 80:80 rajesh
+ 3595  clear5
+ 3596  clear
+ 3597  c
+ 3598  mvn clean package
+ 3599  cd ~/softwares
+ 3600  cd tomcat
+ 3601  ls -ltr
+ 3602  pwd
+ 3603  cd apache-tomcat-10.1.31
+ 3604  clear
+ 3605  pwd
+ 3606  java -version
+ 3607  java-21
+ 3608  cd /usr/libexec
+ 3609  ls -ltr
+ 3610  ls -la
+ 3611  more java_home
+ 3612  ls -ltr java*
+ 3613  export JAVA_HOME=`/usr/libexec/java_home -v 21
+ 3614  export JAVA_HOME=`/usr/libexec/java_home -v 21`
+ 3615  java -version
+ 3616  clear
+ 3617  pwd
+ 3618  docker pull tomcat:latest
+ 3619  clear
+ 3620  mvn clean package
+ 3621  docker build .
+ 3622  docker run -p 80:8080 .
+ 3623  docker build -t sasphere-tomcat .
+ 3624  docker images
+ 3625  docker run -p 80:8080 sasphere-tomcat
+ 3626  docker build -t sasphere-tomcat .
+ 3627  docker run -p 80:8080 sasphere-tomcat
+ 3628  clear
+ 3629  git st
+ 3630  git diff
+ 3631  sh apply-templates.sh
+ 3632  docker build -t sasphere-tomcat .
+ 3633  docker run -p 80:8080 sasphere-tomcat
+ 3634  ava -version
+ 3635  java -version
+ 3636  java-21
+ 3637  /usr/libexec/java_home -v 22
+ 3638  brew search --formulae java.\n
+ 3639  brew install openjdk@21\n
+ 3640  java-21
+ 3641  cd /Library/Java/JavaVirtualMachines/
+ 3642  ls -tlr
+ 3643  clear
+ 3644  ls -ltr
+ 3645  ln -s openjdk-21.jdk /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk
+ 3646  ls -ltr
+ 3647  ln -s /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk
+ 3648  sudo ln -s /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk
+ 3649  ls -ltr
+ 3650  rm openjdk.jdk
+ 3651  sudo openjdk.jdk
+ 3652  sudo rm openjdk.jdk
+ 3653  ls -ltr
+ 3654  sudo ln -s /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk openjdk-21.jdk
+ 3655  ls -ltr
+ 3656  java-21
+ 3657  ./openjdk-21.jdk
+ 3658  /usr/libexec/java_home -v 21
+ 3659  java -version
+ 3660  clear
+ 3661  java -version
+ 3662  cd ..
+ 3663  ls -ltr
+ 3664  rm openjdk-21.jdk
+ 3665  sudo ~`
+ 3666  sudo ~1
+ 3667  sudo rm openjdk-21.jdk
+ 3668  ls -tlr
+ 3669  java-19
+ 3670  exit
+ 3671  clear
+ 3672  java -version
+ 3673  clear
+ 3674  mvn clean package
+ 3675  clear
+ 3676  ls -tlr
+ 3677  clear
+ 3678  ls -tlr
+ 3679  docker build -t sasphere-tomcat .
+ 3680  docker run -p 80:8080 sasphere-tomcat
+ 3681  clear
+ 3682  pwd
+ 3683  code .
+ 3684  /usr/libexec/java_home -v 21
+ 3685  pwd
+ 3686  cd /opt/homebrew/Cellar/openjdk
+ 3687  ls -ltr
+ 3688  cd 23
+ 3689  ls -tlr
+ 3690  clear
+ 3691  pwd
+ 3692  cd ../..
+ 3693  pwd
+ 3694  ls -tlr
+ 3695  cd  openjdk@21
+ 3696  ls -ltr
+ 3697  pwd
+ 3698  cd 21.0.5
+ 3699  ls -tlr
+ 3700  pwd
+ 3701  java -version
+ 3702  which java
+ 3703  cd /usr/bin
+ 3704  ls -tlr
+ 3705  ls -tlr|grep java
+ 3706  more java
+ 3707  clear
+ 3708  cd ~
+ 3709  code .
+ 3710  clear
+ 3711  ls -tlr
+ 3712  clear
+ 3713  ls -tlr
+ 3714  clear
+ 3715  pwd
+ 3716  ls -ltr
+ 3717  l
+ 3718  clear
+ 3719  ls -ltr
+ 3720  l
+ 3721  ls -ltr
+ 3722  l
+ 3723  pwd
+ 3724  cd workspace
+ 3725  l
+ 3726  ls -ltr
+ 3727  clear
+ 3728  whoami
+ 3729  id
+ 3730  oc
+ 3731  oc --version
+ 3732  clear
+ 3733  crc start
+ 3734  crc delete
+ 3735  clear
+ 3736  crc status
+ 3737  crc start
+ 3738  oc login -u developer https://api.crc.testing:6443
+ 3739  clear
+ 3740  oc get pods
+ 3741  oc login -u kubeadmin -p 6uYyU-ixRBr-e49TQ-XRyGP https://api.crc.testing:6443
+ 3742  oc get pods
+ 3743  clear
+ 3744  oc get namespace
+ 3745  oc get namespaces
+ 3746  clear
+ 3747  oc get namespaces
+ 3748  oc get namespace
+ 3749  clear
+ 3750  ls -ltr
+ 3751  clear
+ 3752  ls -ltr
+ 3753  clear
+ 3754  ls -ltr
+ 3755  ckear
+ 3756  clear
+ 3757  docker pull
+ 3758  docker build .
+ 3759  oc get pods
+ 3760  clear
+ 3761  oc get nodes
+ 3762  oc get clusterversion
+ 3763  oc adm get 
+ 3764  oc adm status
+ 3765  oc adm -h
+ 3766  clear
+ 3767  docker build .
+ 3768  clear
+ 3769  docker imgaes
+ 3770  docker build .
+ 3771  clear
+ 3772  docker build -t myfirstimage .
+ 3773  docker build -t myfirstimage:v1 .
+ 3774  clear
+ 3775  docker images
+ 3776  docker run -p 80:80 myfirstimage
+ 3777  docker run -p 80:8080 myfirstimage
+ 3778  docker run -p 81:8080 myfirstimage
+ 3779  docker ps
+ 3780  docker container
+ 3781  docker container ls
+ 3782  clear
+ 3783* docker run -dp 81:8080 myfirstimage
+ 3784  docker ps
+ 3785  docker container
+ 3786  docker container ls
+ 3787  clear
+ 3788  docker container ls
+ 3789  docker ps
+ 3790  docker build -t mysecondimage:v1 .
+ 3791  docker image
+ 3792  docker ps
+ 3793  docker -dp 82:8080 run . 
+ 3794  docker run -dp 82:8080 mysecondimage
+ 3795  clear
+ 3796  docker images
+ 3797  docker run -dp 82:8080 mysecondimage:v1
+ 3798  docker images
+ 3799  oc new-project image-demo
+ 3800  oc new-build . --context-dir='Docker' --stratehy='docker' --name='myfirstocpimage'
+ 3801  oc new-build . --context-dir='Docker' --strategy='docker' --name='myfirstocpimage'
+ 3802  clear
+ 3803  oc new-build . --strategy='docker' --name='myfirstocpimage'
+ 3804  oc get all
+ 3805  clear
+ 3806  oc get all
+ 3807  history
+ 3808  clear
+ 3809  oc get all
+ 3810  oc get pods
+ 3811  oc get all
+ 3812  oc logs buildconfig.build.openshift.io/myfirstocpimage
+ 3813  oc logs imagestream.image.openshift.io/httpd-24-centos7
+ 3814* pwd
+ 3815* cd workspace
+ 3816* clear
+ 3817* ls -tlr
+ 3818* cd welcome-to-docker
+ 3819* ls -tlr
+ 3820* more Dockerfile
+ 3821* code .
+ 3822* pwd
+ 3823* docker build . -name node-rajesh:v1
+ 3824* docker build . -name 'node-rajesh:v1'
+ 3825* docker build . -tag 'node-rajesh:v1'
+ 3826* docker build . --tag 'node-rajesh:v1'
+ 3827* docker run -dp 8088:80 --name node-rajesh
+ 3828* docker run -dp 8088:80 --name node-rajesh:v1
