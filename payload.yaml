@@ -1,0 +1,11 @@
+git:
+  uri: "https://github.com/mahiznan/docker-demo"
+  ref: ""
+  commit: "1702cb3"
+  author:
+    name: "Rajeshkumar"
+    email: "rajeshmepco@gmail.com"
+  committer:
+    name: "Ramju"
+    email: "ranju@gmail.com"
+  message: "Custom commit message"
