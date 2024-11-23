@@ -1,1 +1,6 @@
-curl -H "Content-Type: application/yaml" --data-binary @payload_file.yaml -X POST -k https://<openshift_api_host:port>/oapi/v1/namespaces/<namespace>/buildconfigs/<name>/webhooks/<secret>/generic
+curl -H "Content-Type: application/yaml" --data-binary payload_file.yaml -X POST -k https://api.crc.testing:6443/apis/build.openshift.io/v1/namespaces/app-deployment/buildconfigs/docker-demo/webhooks/49f9999ff3054767/generic
+
+
+
+
+https://api.crc.testing:6443/apis/build.openshift.io/v1/namespaces/app-deployment/buildconfigs/docker-demo/webhooks/49f9999ff3054767/generic
